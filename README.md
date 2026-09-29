@@ -1,43 +1,35 @@
 # stanford-study
 
-Stanford **CS146S: The Modern Software Developer** 스터디 노트.
+Stanford **CS146S: The Modern Software Developer** 스터디 레포. Claude와 같이 공부하기 위해 학습자료를 모아둔 곳이다.
 
-- 한국어 번역: https://kr.themodernsoftware.dev ([레포](https://github.com/team-attention/stanford-cs146s-kr))
+## 폴더 구성
+
+- `docs/weekN/<자료>/kr/` — 한국어 번역본
+- `docs/weekN/<자료>/eng/` — 영어 원문
+- `docs/glossary.md` — 번역 용어집
+- `assignments/` — 과제 (원본: mihail911/modern-software-dev-assignments, 현재 Week 1 공개)
+
+## 출처
+
+- 번역본: https://github.com/team-attention/stanford-cs146s-kr (사이트: https://kr.themodernsoftware.dev)
 - 원본 강좌: https://themodernsoftware.dev
-- 과제: https://github.com/mihail911/modern-software-dev-assignments (Fall 2026 기준, 주차별로 공개 중)
+- 과제: https://github.com/mihail911/modern-software-dev-assignments
 
-## 학습 방식
+## 포함하지 않은 것
 
-- 배경: Claude Code 같은 코딩 에이전트는 실무에서 많이 써봄 → **"써본 것"을 "왜 그렇게 동작하는지"로 연결**하는 데 집중
-- 주차마다: 가이드 읽기 → 읽을거리 → 체크 질문 답하기 → 과제 → 회고 노트
-- 번역본 위치: `stanford-cs146s-kr/docs/weekN/<slug>/kr/`
+- `public/cheatsheets/` 이미지 (약 284MB) — 필요하면 원본 레포에서 확인
+- 강의 슬라이드 — Google Slides 링크로만 제공됨 (원본 레포 `src/content/syllabus.ts` 참고)
+- Week 8, 10은 읽을거리 없음
 
-## 진행 현황
+## 주차
 
-| 주차 | 주제 | 가이드 | 읽기 | 퀴즈 | 과제 |
-|:-:|---|:-:|:-:|:-:|:-:|
-| 1 | 코딩 LLM과 AI 개발 입문 | [✅](./week1/README.md) | ⬜ | ⬜ | ⬜ |
-| 2 | 코딩 에이전트의 구조 (MCP) | ⬜ | ⬜ | ⬜ | ⬜ |
-| 3 | AI IDE (스펙, 컨텍스트, 도구 설계) | ⬜ | ⬜ | ⬜ | ⬜ |
-| 4 | 코딩 에이전트 패턴 (Claude Code) | ⬜ | ⬜ | ⬜ | ⬜ |
-| 5 | 현대적 터미널 (Warp) | ⬜ | ⬜ | ⬜ | ⬜ |
-| 6 | AI 테스팅과 보안 | ⬜ | ⬜ | ⬜ | ⬜ |
-| 7 | 현대적 소프트웨어 지원 (코드 리뷰) | ⬜ | ⬜ | ⬜ | ⬜ |
-| 8 | 자동화된 UI 및 앱 개발 | ⬜ | – | ⬜ | ⬜ |
-| 9 | 배포 후 에이전트 관리 (SRE) | ⬜ | ⬜ | ⬜ | ⬜ |
-| 10 | AI 소프트웨어 엔지니어링의 미래 | ⬜ | – | ⬜ | – |
-
-## 큰 그림: 10주가 어떻게 이어지나
-
-```
-1주  LLM은 무엇이고 어떻게 말을 걸어야 하나         (모델)
-2주  모델에 손발(도구)을 달면 에이전트가 된다 — MCP    (도구)
-3주  에이전트에게 무엇을 보여줄까 — 스펙·컨텍스트     (컨텍스트)
-4주  에이전트를 팀원처럼 부리는 패턴                   (워크플로)
-5주  터미널이라는 작업 환경                           (환경)
-6주  에이전트가 만든 코드·에이전트 자체의 보안          (품질·보안)
-7주  사람+AI 코드 리뷰                                (품질)
-8주  프롬프트 한 번으로 앱 만들기                      (자동화)
-9주  배포 이후 — 운영하는 에이전트                     (운영)
-10주 앞으로 10년                                     (전망)
-```
+1. 코딩 LLM과 AI 개발 입문
+2. 코딩 에이전트의 구조 (MCP)
+3. AI IDE
+4. 코딩 에이전트 패턴
+5. 현대적 터미널
+6. AI 테스팅과 보안
+7. 현대적 소프트웨어 지원
+8. 자동화된 UI 및 앱 개발
+9. 배포 후 에이전트 관리
+10. AI 소프트웨어 엔지니어링의 미래
