@@ -4,7 +4,9 @@ Stanford **CS146S: The Modern Software Developer** 스터디 레포. Claude와 �
 
 ## 폴더 구성
 
-- `cheatsheets/` — **그림으로 풀어쓴 치트시트 (초보자는 여기부터)**
+- `slides/vibe-coding-essentials.pptx` — **바이브코딩에 쓸 것만 뽑은 전 주차 요약 (57장, 제일 먼저 볼 것)**
+- `slides/week1-cheatsheets.pptx` — 1주차 그림 치트시트 + 쉬운 설명
+- `cheatsheets/` — 그림으로 풀어쓴 치트시트 원본 이미지
 - `docs/weekN/<자료>/kr/` — 한국어 번역본 (글, 어려움)
 - `docs/weekN/<자료>/eng/` — 영어 원문
 - `docs/glossary.md` — 번역 용어집
