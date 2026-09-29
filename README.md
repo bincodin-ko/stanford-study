@@ -4,7 +4,8 @@ Stanford **CS146S: The Modern Software Developer** 스터디 레포. Claude와 �
 
 ## 폴더 구성
 
-- `docs/weekN/<자료>/kr/` — 한국어 번역본
+- `cheatsheets/` — **그림으로 풀어쓴 치트시트 (초보자는 여기부터)**
+- `docs/weekN/<자료>/kr/` — 한국어 번역본 (글, 어려움)
 - `docs/weekN/<자료>/eng/` — 영어 원문
 - `docs/glossary.md` — 번역 용어집
 - `assignments/` — 과제 (원본: mihail911/modern-software-dev-assignments, 현재 Week 1 공개)
@@ -17,8 +18,8 @@ Stanford **CS146S: The Modern Software Developer** 스터디 레포. Claude와 �
 
 ## 포함하지 않은 것
 
-- `public/cheatsheets/` 이미지 (약 284MB) — 필요하면 원본 레포에서 확인
-- 강의 슬라이드 — Google Slides 링크로만 제공됨 (원본 레포 `src/content/syllabus.ts` 참고)
+- 강의 슬라이드 — Google Slides 링크로만 공개돼 있고 이 환경에서는 내려받을 수 없음 (사이트 kr.themodernsoftware.dev 각 주차 페이지에 링크 있음)
+- 영상 — 내려받지 않음. 1주차: [Karpathy 강의](https://www.youtube.com/watch?v=7xTGNNLPyMI), [프롬프트 엔지니어링 대담](https://www.youtube.com/watch?v=T9aRN5JkmL8)
 - Week 8, 10은 읽을거리 없음
 
 ## 주차
