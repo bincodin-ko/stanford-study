@@ -1,38 +1,33 @@
-# stanford-study
+# 인터넷 사업 공부 노트 (입문 → 실전)
 
-Stanford **CS146S: The Modern Software Developer** 스터디 레포. Claude와 같이 공부하기 위해 학습자료를 모아둔 곳이다.
+사이트를 하나 만들어서 **실제로 돈을 벌며 운영한다**고 생각하고,
+"무슨 사업이 있나 → 어떻게 설계하나 → 어떻게 업데이트·백업·관리하나"를 순서대로 공부하는 자료입니다.
 
-## 폴더 구성
+> 처음이라면 **1장부터 순서대로**, 한 장씩만 읽으세요.
+> 모르는 단어는 [3장 용어 사전](docs/03-glossary.md)에서 바로 찾을 수 있어요.
+> 한눈에 보고 싶으면 [요약 슬라이드](slides/internet-business-101.pptx)를 먼저 넘겨 보세요.
 
-- `slides/vibe-coding-essentials.pptx` — **바이브코딩에 쓸 것만 뽑은 전 주차 요약 (57장, 제일 먼저 볼 것)**
-- `slides/week1-cheatsheets.pptx` — 1주차 그림 치트시트 + 쉬운 설명
-- `cheatsheets/` — 그림으로 풀어쓴 치트시트 원본 이미지
-- `docs/weekN/<자료>/kr/` — 한국어 번역본 (글, 어려움)
-- `docs/weekN/<자료>/eng/` — 영어 원문
-- `docs/glossary.md` — 번역 용어집
-- `assignments/` — 과제 (원본: mihail911/modern-software-dev-assignments, 현재 Week 1 공개)
+## 공부 순서
 
-## 출처
+| 단계 | 장 | 무엇을 배우나 |
+|---|---|---|
+| **1. 큰 그림** | [01. 인터넷 사업의 종류](docs/01-business-models.md) | B2B, B2C, C2C, 플랫폼… 누구에게 파는가 |
+| | [02. 돈 버는 방법](docs/02-revenue-models.md) | 구독, 광고, 수수료, 판매… 어떻게 버는가 |
+| | [03. 용어 사전](docs/03-glossary.md) | 현업에서 매일 쓰는 핵심 단어 |
+| **2. 만들기** | [04. 기획과 설계](docs/04-planning-and-design.md) | 아이디어 → 화면 설계 → 출시까지의 순서 |
+| | [05. 사이트가 돌아가는 구조](docs/05-how-websites-work.md) | 도메인, 서버, DB, 호스팅이 뭔지 |
+| **3. 운영하기** | [06. 개발 환경과 버전 관리](docs/06-environments-and-git.md) | "백업 폴더 만들어서 고치나요?"에 대한 답 |
+| | [07. 업데이트와 배포](docs/07-deploy-and-update.md) | 사이트를 멈추지 않고 고치는 법, 되돌리는 법 |
+| | [08. 백업과 복구](docs/08-backup-and-recovery.md) | 무엇을, 얼마나 자주, 어디에 백업하나 |
+| | [09. 매일의 운영과 장애 대응](docs/09-operations.md) | 모니터링, 고객 응대, 사고 났을 때 |
+| | [10. 보안과 법](docs/10-security-and-law.md) | 해킹 막기, 사업자·통신판매업·개인정보 |
+| **4. 키우기** | [11. 마케팅과 데이터](docs/11-growth-and-data.md) | 손님을 데려오고 숫자로 판단하기 |
+| | [12. B2B vs B2C 운영 차이](docs/12-b2b-vs-b2c.md) | 기업 상대와 개인 상대는 운영이 어떻게 다른가 |
+| **5. 실전** | [13. 실전 시뮬레이션](docs/13-practice-scenario.md) | 작은 쇼핑몰을 0일차부터 1년차까지 운영해 보기 |
+| | [14. 체크리스트 모음](docs/14-checklists.md) | 출시 전, 배포 전, 매일·매주·매월 점검표 |
+| | [15. 복습 퀴즈](docs/15-quiz.md) | 스스로 확인하기 (정답 포함) |
 
-- 번역본: https://github.com/team-attention/stanford-cs146s-kr (사이트: https://kr.themodernsoftware.dev)
-- 원본 강좌: https://themodernsoftware.dev
-- 과제: https://github.com/mihail911/modern-software-dev-assignments
+## 이 자료를 읽을 때 주의할 점
 
-## 포함하지 않은 것
-
-- 강의 슬라이드 — Google Slides 링크로만 공개돼 있고 이 환경에서는 내려받을 수 없음 (사이트 kr.themodernsoftware.dev 각 주차 페이지에 링크 있음)
-- 영상 — 내려받지 않음. 1주차: [Karpathy 강의](https://www.youtube.com/watch?v=7xTGNNLPyMI), [프롬프트 엔지니어링 대담](https://www.youtube.com/watch?v=T9aRN5JkmL8)
-- Week 8, 10은 읽을거리 없음
-
-## 주차
-
-1. 코딩 LLM과 AI 개발 입문
-2. 코딩 에이전트의 구조 (MCP)
-3. AI IDE
-4. 코딩 에이전트 패턴
-5. 현대적 터미널
-6. AI 테스팅과 보안
-7. 현대적 소프트웨어 지원
-8. 자동화된 UI 및 앱 개발
-9. 배포 후 에이전트 관리
-10. AI 소프트웨어 엔지니어링의 미래
+- 법·세금 내용(10장)은 **2026년 10월 기준으로 조사한 것**이고, 법은 자주 바뀝니다. 실제로 사업을 시작할 때는 꼭 공식 사이트(국세청 홈택스, 정부24, 개인정보보호위원회, 국가법령정보센터)에서 다시 확인하세요.
+- 기술 도구 이름(서비스 이름)은 "예시"입니다. 같은 역할을 하는 다른 서비스도 많아요.
