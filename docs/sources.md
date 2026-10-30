@@ -137,6 +137,45 @@
 
 ---
 
+## 32~33장 (마케팅 실전과 사례)
+
+### 32장 채널별 실전
+- [인스타그램 2025 알고리즘 신호 (Social Media Today)](https://www.socialmediatoday.com/news/instagram-shares-algorithm-insights-2025/738034/)
+- [인스타그램 도달 핵심 요인 (Social Samosa)](https://www.socialsamosa.com/news-2/instagram-reveals-key-factors-for-boosting-reach-8646916)
+- [인스타그램 해시태그 5개 제한 (BetaNews)](https://betanews.com/2025/12/19/instagram-puts-a-limit-on-hashtag-usage/)
+- [인스타그램 해시태그 제한 (Siècle Digital)](https://siecledigital.fr/2025/12/22/instagram-enterre-les-hashtags-a-rallonge/)
+- [메타 광고 예산·학습 기준 (원포인트)](https://1point.kr/blog/insights/instagram-ad-budget-floor/)
+- [메타 광고 전환 50건 (AMPM)](https://inside.ampm.co.kr/insight/60829)
+- [메타 광고 첫 예산 (AMPM)](https://inside.ampm.co.kr/insight/12023)
+- [네이버 플레이스·체험단 실전 (아이보스)](https://www.i-boss.co.kr/ab-6141-62818)
+- [가게 마케팅 실전 전략 (토스플레이스)](https://tossplace.com/story/marketing_5tips)
+- [당근 광고 안내 (아이보스, 대행사 글)](https://www.i-boss.co.kr/ab-2987-547041)
+- [스레드 국내 이용자 증가 (MTN)](https://news.mtn.co.kr/news-detail/2026091016192841238)
+- [스레드 국내 이용 분석 (나스미디어)](https://library.nasmedia.co.kr/file/b6ee19fd7275d4ccb7809cfabc2db0fc)
+
+### 33장 실제 사례
+- 배달의민족: [뉴시스](https://www.newsis.com/view/NISX20210218_0001344250), [브런치 정리](https://brunch.co.kr/@you486me/112)
+- 당근: [바이라인네트워크](https://byline.network/2024/04/22-327/), [비즈한국](https://www.bizhankook.com/bk/article/20970)
+- 무신사: [헤럴드경제](https://biz.heraldcorp.com/article/10409496), [피플와이 뉴스레터](https://maily.so/peoplewhy/posts/d5ryw2k1z1w)
+- 오늘의집: [한국경제](https://www.hankyung.com/amp/2022081039351), [이코노미스트](https://economist.co.kr/article/view/ecn202304230001)
+- 글로시에: [Entrepreneur](https://www.entrepreneur.com/article/249328), [Harvard Digital Initiative](https://d3.harvard.edu/platform-digit/submission/glossier-a-direct-to-consumer-beauty-disruptor/)
+- 모닝 브루: [SparkLoop](https://sparkloop.app/blog/the-secrets-behind-morning-brews-growth-to-2-million-newsletter-subscribers-6), [Referral Rock](https://referralrock.com/blog/morning-brew-referral-program/)
+- 드롭박스: [Prefinery](https://prefinery.com/blog/dropbox-referral-program-3900percent-growth-study/), [Referral Rock](https://referralrock.com/blog/dropbox-referral-program/)
+- 워들: [위키백과](https://en.wikipedia.org/wiki/Wordle), [TechCrunch](https://techcrunch.com/2022/05/04/wordle-new-york-times-user-growth)
+- 어몽어스: [PC Gamer](https://pcgamer.com/how-among-us-became-so-popular), [CNBC](https://www.cnbc.com/2020/10/14/how-among-us-became-a-mega-hit-thanks-to-amazon-twitch.html)
+- 듀오링고: [Adweek](https://www.adweek.com/brand-marketing/duolingo-duo-owl-marketing-strategy/), [Digiday](https://digiday.com/marketing/how-duolingo-is-using-its-unhinged-content-with-duo-the-owl-to-make-people-laugh-on-tiktok/)
+- 피터 레벨스: [Favikon](https://favikon.com/blog/who-is-levelsio)
+- 에어비앤비: [Andrew Chen](https://andrewchen.com/how-to-be-a-growth-hacker-an-airbnbcraigslist-case-study/), [Boston University BHR](https://www.bu.edu/bhr/2016/01/08/the-making-of-airbnb)
+
+**⚠️ 확인하지 못한 것**
+- **인스타그램 해시태그 5개 제한**은 여러 매체 보도로 확인했지만, 인스타그램 공식 발표 원문은 직접 보지 못했어요. 3개라고 쓴 매체도 있었어요.
+- **메타 광고 "7일에 50회" 학습 기준과 예산 계산식**은 국내 광고 대행사들의 안내예요. 메타 공식 도움말로는 확인하지 못했어요.
+- **당근 광고 최소 금액**은 대행사 글만 찾았고, 공식 금액은 확인하지 못했어요.
+- **스레드 국내 이용자 수**는 조사마다 540만~820만 명으로 차이가 컸어요.
+- **사례 속 숫자**(무신사 시작 연도 2001/2002, 오늘의집 커머스 시작 2016/2017, 모닝 브루·드롭박스·듀오링고 성장 수치)는 출처마다 조금씩 달라요. 대부분 회사 공식 자료가 아니라 기사·분석 글이에요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
