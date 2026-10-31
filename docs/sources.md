@@ -176,6 +176,39 @@
 
 ---
 
+## 34~35장 (도메인 이름 · 업계 지식)
+
+### 34장 도메인 이름
+- [.com 도매가 인상 발표 (Domain Name Wire)](https://domainnamewire.com/2026/04/23/breaking-verisign-raising-wholesale-com-prices/)
+- [.com 가격 인상 설명 (Openprovider)](https://www.openprovider.com/blog/com-price-increase-domain-resellers)
+- [도메인 만료 단계 (DNSimple)](https://support.dnsimple.com/articles/domain-expiration-reference/)
+- [도메인 만료 안내 (ICANN 블로그)](https://www.icann.org/news/blog/do-you-have-a-domain-name-here-s-what-you-need-to-know-part-5)
+- [.kr 도메인 안내 (GoDaddy)](https://godaddy.com/help/about-kr-domains-19996)
+- [.kr 소개 (ICANNWiki)](https://icannwiki.org/.kr)
+- [UDRP 한국어 (WIPO)](https://www.wipo.int/amc/ko/domains/gtld/udrp/index.html)
+- [UDRP 정책 한국어 (ICANN)](https://www.icann.org/en/contracted-parties/consensus-policies/uniform-domain-name-dispute-resolution-policy/uniform-domain-name-dispute-resolution-policy-01-01-2020-ko)
+- [도메인이름 부정 차용 (Nepla)](https://www.nepla.ai/wiki/%EC%A7%80%EC%8B%9D%EC%9E%AC%EC%82%B0/%EB%B6%80%EC%A0%95%EA%B2%BD%EC%9F%81/%EB%8F%84%EB%A9%94%EC%9D%B8%EC%9D%B4%EB%A6%84-%EB%B6%80%EC%A0%95%EC%B0%A8%EC%9A%A9-mo59y6j3581v)
+
+### 35장 업계 지식
+- [정기결제(빌링) 이해하기 (토스페이먼츠)](https://www.tosspayments.com/blog/articles/34411)
+- [PG 정산 구조 (고도몰)](https://www.godo.co.kr/main/blog/23/payment-gateway-calculate-sattlement-1091)
+- [결제수단별 결제 프로세스 (아이보스)](https://www.i-boss.co.kr/ab-74668-4300)
+- [3PL·풀필먼트 차이 (아임웹)](https://imweb.me/blog?idx=519)
+- [풀필먼트 업계 인터뷰 (바이라인네트워크)](https://byline.network/2019/10/14-75/)
+- [RTB 실시간 경매 (DI매거진)](https://ditoday.com/?p=12517)
+- [서드파티 쿠키 제한의 영향 (DI매거진)](https://ditoday.com/?p=54024)
+- [Bounded Context (Martin Fowler)](https://martinfowler.com/bliki/BoundedContext.html)
+- [Domain-Driven Design (Devopedia)](https://devopedia.org/domain-driven-design)
+
+**⚠️ 확인하지 못한 것**
+- **.kr 등록 자격**: 국내 주소가 필요하다는 안내와 해외에서도 대리 등록이 된다는 안내가 섞여 있었어요. KISA 공식 안내는 직접 보지 못했어요.
+- **도메인 만료 단계별 기간(약 45일·30일·5일)과 60일 이전 제한**은 주로 gTLD 기준이고, 등록 업체 안내 위주로 확인했어요. .kr은 다를 수 있어요.
+- **인터넷주소분쟁조정위원회**의 현재 절차·수수료는 찾지 못했어요.
+- **크롬 서드파티 쿠키 정책**의 최신 상태는 이번 조사에서 확인하지 못해서, "여러 번 바뀌었다"고만 적었어요.
+- **PG사별 정산 주기(D+N 일수)** 는 계약마다 달라서 숫자를 적지 않았어요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
