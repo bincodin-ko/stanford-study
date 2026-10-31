@@ -209,6 +209,48 @@
 
 ---
 
+## 36~38장 (호스팅 · 보안 · 출시 전 체크리스트)
+
+### 36장 서버·호스팅
+- [무료 호스팅 요금제 비교 (Flavio Copes)](https://flaviocopes.com/hosting-free-tiers.md)
+- [Vercel 무료 vs Pro (Fencode)](https://www.fencode.dev/en/blog/vercel-free-vs-pro-2026-official-limits-pricing)
+- [호스팅 무료 요금제 비교 (AgentDeals)](https://agentdeals.dev/hosting-free-tier-comparison-2026)
+- [개인정보 국외이전 (ITWiki, ISMS-P 기준)](https://itwiki.kr/w/ISMS-P_%EC%9D%B8%EC%A6%9D_%EA%B8%B0%EC%A4%80_3.3.4.%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%9D%98_%EA%B5%AD%EC%99%B8%EC%9D%B4%EC%A0%84)
+- [개인정보보호법 시행령 개정 (법률신문)](https://www.lawtimes.co.kr/news/189930)
+
+### 37장 보안
+- [OWASP Top 10 2025 공식](https://owasp.org/Top10/2025/0x00_2025-Introduction/)
+- [OWASP Top 10 2025 보도 (The Register)](https://www.theregister.com/2025/11/11/new_owasp_top_ten_broken/)
+- [OWASP 2025 변경점 (Qualys)](https://blog.qualys.com/qualys-insights/2026/06/15/what-changed-in-owasp-top-10-2025-and-recommendations-for-each-category)
+- [개인정보의 안전성 확보조치 기준 (위키독스 정리)](https://wikidocs.net/264634)
+- [안전성 확보조치 기준 안내서 공개 (보안뉴스)](https://m.boannews.com/html/detail.html?idx=133982)
+
+### 38장 출시 전 체크리스트
+- [스크롤과 주목도 (Nielsen Norman Group)](https://www.nngroup.com/articles/scrolling-and-attention/)
+- [제목 링크 가이드 (Google Search Central)](https://developers.google.com/search/docs/appearance/title-link)
+- [제목·설명 도움말 발표 (Search Engine Land)](https://searchengineland.com/google-publishes-new-help-documents-on-controlling-titles-and-descriptions-in-search-375057)
+- [robots.txt 소개 (Google Search Central)](https://developers.google.com/search/docs/advanced/robots)
+- [코어 웹 바이탈 기준 (web.dev)](https://web.dev/articles/defining-core-web-vitals-thresholds)
+- [HowTo·FAQ 리치 결과 축소 (Search Engine Land)](https://searchengineland.com/google-reduces-the-visibility-of-howto-and-faq-rich-results-in-search-430452)
+- [FAQ 리치 결과 중단 보도 (Search Engine Journal)](https://www.searchenginejournal.com/google-drops-faq-rich-results/574429/)
+- [카카오 스크랩(미리보기) 체크리스트 (카카오 데브톡)](https://devtalk.kakao.com/t/scrap-url/116202)
+- [카카오 스크랩 캐시 삭제 (카카오 데브톡)](https://devtalk.kakao.com/t/topic/33298)
+- [GA4 추천 이벤트 (Google 도움말)](https://support.google.com/analytics/answer/9267735)
+- [GA4 핵심 이벤트 (PPC Land)](https://ppc.land/key-event/)
+- [네이버 서치어드바이저 등록 (인블로그)](https://inblog.ai/ko/docs/seo-tutorial-domain-setup/registering-with-naver-search-advisor)
+
+**⚠️ 확인하지 못한 것**
+- **무료 요금제 조건**(Vercel 비상업 제한, Netlify·Cloudflare 상업 허용 등)은 비교 기사 기준이에요. 각 회사 약관 원문은 보지 못했어요.
+- **해외 클라우드 서울 리전 사용 시 국외 이전 해당 여부**는 자료에서 직접 다루지 않아 "사례마다 다를 수 있다"고만 적었어요.
+- **OWASP 2025의 A06·A07 항목 이름**은 검색 결과가 아니라 기존 지식으로 채웠어요. 공식 페이지에서 확인하세요.
+- **안전성 확보조치 기준**: 접속기록 보관(원칙 1년, 조건부 2년)은 확인했지만, 관리자 2단계 인증 의무 등 세부 조문은 확인하지 못해 요약으로만 적었어요. "이용자 접속기록 3개월"이라는 다른 보도도 있었어요.
+- **FAQ 리치 결과 2026년 완전 중단**은 SEO 업계 보도 기준이고, 구글 공식 공지는 직접 보지 못했어요.
+- **OG 이미지 권장 크기**: 1200×630은 업계에서 흔히 쓰는 값이고, 카카오 공식 문서로는 확인하지 못했어요(카카오 포럼엔 800×400 안내).
+- **meta keywords를 구글이 쓰지 않는다**는 내용과 **명도 대비 4.5:1(WCAG)** 은 이번 조사에서 새로 확인하지 않은 기존 지식이에요.
+- **네이버 서치어드바이저** 세부 절차는 공식 도움말이 아니라 2차 자료로 확인했어요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

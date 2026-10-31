@@ -1,5 +1,7 @@
 # 14. 체크리스트 모음
 
+> 웹사이트를 AI(Claude)와 함께 만든다면, 출시 전에 빠지기 쉬운 30가지와 **복사해서 보낼 요청문**은 [38장](38-launch-checklist-for-claude.md)에 있어요. 호스팅은 [36장](36-choosing-hosting.md), 보안은 [37장](37-security-must-dos.md).
+
 복사해서 그대로 쓰세요. `[ ]` 를 `[x]` 로 바꾸며 체크하면 됩니다.
 
 ---
