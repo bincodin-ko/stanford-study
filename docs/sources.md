@@ -251,6 +251,58 @@
 
 ---
 
+## 39~41장 (결제 연동 · 멀티플레이 서버 · 어뷰징)
+
+### 39장 결제 연동과 정산
+- [결제 요청·인증·승인 흐름 (토스페이먼츠 블로그)](https://www.tosspayments.com/blog/articles/54253)
+- [토스페이먼츠 결제 연동하기 (토스페이먼츠 벨로그)](https://velog.io/@tosspayments/토스페이먼츠-결제-연동하기)
+- [PG 계약 절차 (포트원)](https://blog.portone.io/pg_onboarding_process/)
+- [포트원 FAQ](https://blog.portone.io/faq_portonepg/)
+- [웹훅 멱등성·재시도 (Inquir)](https://inquir.org/blog/idempotency-making-webhooks-and-jobs-safe-to-retry)
+- [Stripe 웹훅 운영 사례 (Alex Cloudstar)](https://alexcloudstar.com/blog/stripe-webhooks-production-2026/)
+- [판매대금 20일 내 정산·50% 별도관리 (뉴시스)](https://www.newsis.com/view/NISX20241018_0002924933)
+- [정산기한 논의 (유니콘팩토리)](https://www.unicornfactory.co.kr/article/2024092309311434191)
+- [현금영수증 의무발행 (크몽 공지)](https://kmong.com/support/expert-center/posts/612)
+- [현금영수증 미발급 가산세 (한국경제)](https://www.hankyung.com/article/2025022107957)
+
+### 40장 멀티플레이 게임 서버
+- [VALORANT 128틱 서버 (Riot 기술 블로그)](https://technology.riotgames.com/node/112)
+- [피커스 어드밴티지 (PC Gamer)](https://pcgamer.com/valorant-peekers-advantage-interview)
+- [롤 채팅 서비스 구조 (Riot 기술 블로그)](https://technology.riotgames.com/node/21)
+- [Fast-Paced Multiplayer (Gabriel Gambetta)](https://gabrielgambetta.com/client-server-game-architecture.html)
+- [클라이언트 예측·서버 보정 (Gabriel Gambetta)](https://gabrielgambetta.com/client-side-prediction-server-reconciliation.html)
+- [Source Multiplayer Networking (Valve 개발자 위키)](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking)
+- [Lag Compensation (Valve 개발자 위키)](https://developer.valvesoftware.com/wiki/Lag_Compensation)
+- [포트나이트 배틀로얄 엔진 개선 (Unreal Engine 블로그)](https://www.unrealengine.com/tech-blog/unreal-engine-improvements-for-fortnite-battle-royale)
+- [배그 틱 레이트 문제 (Shacknews)](https://shacknews.com/article/105209/please-take-a-look-high-tick-rate-hot-drops)
+- [틱 레이트와 비용 (Edgegap)](https://edgegap.com/blog/game-server-tick-rate-explained-gameplay-precision-vs-infrastructure-cost)
+- [롤백 넷코드 설명 (Infil)](https://words.infil.net/w02-netcode-p5.html)
+- [Agones (GitHub)](https://github.com/googleforgames/agones)
+- [Agones에서 GameLift로 (AWS 블로그)](https://aws.amazon.com/blogs/gametech/migrating-from-kubernetes-and-agones-to-amazon-gamelift-servers/)
+
+### 41장 어뷰징·핵 대응
+- [크리덴셜 스터핑 방지 치트시트 (OWASP)](https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html)
+- [Vanguard 커널 드라이버 설명 (KitGuru)](https://www.kitguru.net/?p=461990)
+- [롤 Vanguard 도입 (Esports.net)](https://www.esports.net/news/lol/does-lol-use-vanguard/)
+- [게임산업법 위반 처벌 해설 (로톡)](https://www.lawtalk.co.kr/posts/145754)
+- [게임 핵 처벌 강화 개정안 (위키트리)](https://www.wikitree.co.kr/articles/270838)
+- [게임산업법 위반 통계·처벌 지적 (파이낸셜뉴스)](https://www.fnnews.com/news/202509210428134600)
+- [중복계정 혜택 환수 사례 (다음 뉴스)](https://v.daum.net/v/bxTAuqYcQN)
+- [다중 계정 차단 (알체라 블로그, 업체 글)](https://www.alchera.ai/resource/blog/ekyc-multiple-account-block-identification)
+
+**⚠️ 확인하지 못한 것**
+- **토스페이먼츠 승인 만료 시간(10분)** 은 비공식 라이브러리 문서에서만 봤어요. 웹훅·가상계좌 세부는 공식 문서를 직접 보지 못했어요.
+- **대규모유통업법 개정(정산 20일·50% 별도 관리)** 은 2024년 10월 정부 확정안 기준이고, 국회 통과·시행일은 확인하지 못했어요.
+- **현금영수증 가산세율**은 보도마다 달랐어요(20%, 10일 이내 자진발급 시 10% 등). 쇼핑몰·PG 매출에 대한 적용은 세무 확인이 필요해요.
+- **PG 수수료 1~3%대**는 통합 결제 플랫폼 블로그의 설명이에요.
+- **각 게임사 서버 구조**는 대부분 비공개라서 공개 기술 블로그·업계 해설로 정리했어요. 배그 틱 레이트 문제는 2018년 보도 기준이라 지금과 다를 수 있어요.
+- **결정론적 록스텝(RTS)** 은 이번 검색에서 근거 자료를 찾지 못해 기존 지식으로 짧게 적었어요.
+- **밴 웨이브(몰아서 제재)** 는 업계에서 널리 알려진 방식이지만, 이번 검색에서 공식 근거를 찾지 못했어요.
+- **핵 제작·유통 5년/5천만 원, 대리 게임 2년/2천만 원**은 법률 해설·기사 기준이에요. 조문 원문과 시행일은 국가법령정보센터에서 확인하세요.
+- **본인인증·AI 탐지 효과**에 관한 자료는 주로 솔루션 업체 글이라 과장됐을 수 있어요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
