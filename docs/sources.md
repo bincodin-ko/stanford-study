@@ -303,6 +303,65 @@
 
 ---
 
+## 42~56장 (창업가의 기본기 · 만들고 키우는 실전)
+
+### 42장 아이디어 검증
+- [션 엘리스 40% 테스트 (Learning Loop)](https://learningloop.io/plays/product-market-fit-survey)
+- [PMF 설문 (Umbrex)](https://umbrex.com/resources/frameworks/product-management-frameworks/sean-ellis-product-market-fit-survey/)
+
+### 43장 가격
+- [반 베스텐도르프 가격 민감도 (Umbrex)](https://umbrex.com/resources/frameworks/marketing-frameworks/van-westendorp-price-sensitivity-meter/)
+- [반 베스텐도르프 SaaS 적용 (Monetizely)](https://www.getmonetizely.com/articles/how-to-implement-van-westendorp-price-sensitivity-meter-for-saas-research)
+
+### 44장 돈 관리·법인
+- [종합소득세 vs 법인세 2026 (헬프미)](https://www.help-me.kr/blog/article/2026-comprehensive-income-tax-vs-corporate-tax/)
+- [법인전환 시점 2026 (택슬리)](https://taxly.kr/post/1777-개인사업자-법인전환-언제-하는-게-좋을까요-2026년-최신-기준)
+- [성실신고 대상과 법인 전환 3년 (헬프미)](https://www.help-me.kr/blog/article/sincere-filing-corporation-conversion-3-years/)
+- [법인 전환 절세 (비즈넵)](https://help.bznav.com/hc/ko/articles/41035181488281)
+
+### 45장 지원금·투자
+- [2026 창업 지원금 (아임웹)](https://imweb.me/blog?idx=191)
+- [2026 창업지원사업 일정 (헬프미)](https://www.help-me.kr/blog/article/2026-startup-support-schedule/)
+- [2026 예비창업패키지 모집 (대학저널)](https://www.dhnews.co.kr/news/view/1065589716567019)
+- [단계별 창업 패키지 (벤처스퀘어)](https://www.venturesquare.net/1021021/)
+
+### 47장 상표·저작권·라이선스
+- [생성형 AI 저작권 등록 안내서 (DI매거진)](https://ditoday.com/gai-copyright/)
+- [생성형 AI 저작권 안내서 2종 (뉴스서울)](https://www.newsseoul.co.kr/news/view/1065576023564746)
+- [상표 출원 비용 (헬프미)](https://www.help-me.kr/blog/article/%EC%83%81%ED%91%9C%EC%B6%9C%EC%9B%90%EB%B9%84%EC%9A%A9/)
+- [상표 수수료 계산 (데모데이)](https://demoday.co.kr/tools/trademark-fee)
+- [오픈소스 라이선스 준수 (Promise Legal)](https://blog.promise.legal/startup-central/open-source-license-compliance-for-startups/)
+- [AGPL 이해 (Revenera)](https://www.revenera.com/software-composition-analysis/glossary/what-is-the-agpl-license)
+
+### 48장 UX
+- [5명 사용성 테스트 (Nielsen Norman Group)](https://nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
+
+### 49장 AI로 개발하기
+- [Claude Code 모범 사례 (공식 문서)](https://code.claude.com/docs/en/best-practices)
+- [Claude Code 모범 사례 (DataCamp)](https://www.datacamp.com/tutorial/claude-code-best-practices)
+
+### 52장 해외 진출
+- [비EU OSS 등록 (Stripe 문서)](https://docs.stripe.com/tax/use-stripe-to-register/non-union-oss)
+- [EU OSS (Anrok)](https://help-center.anrok.com/hc/en-us/articles/44287096554899-EU-One-Stop-Shop-EU-OSS)
+
+### 53장 외주·팀
+- [SW 표준 하도급 계약서 (아이뉴스24)](https://www.inews24.com/view/702975)
+- [외주 소스코드 저작권 귀속 분쟁 (Nepla)](https://www.nepla.ai/wiki/%EC%A7%80%EC%8B%9D%EC%9E%AC%EC%82%B0/%EC%A0%80%EC%9E%91%EA%B6%8C/%EC%99%B8%EC%A3%BC-%EA%B0%9C%EB%B0%9C-%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C-%EB%AC%B4%EB%8B%A8-%EC%9E%AC%EC%82%AC%EC%9A%A9-%EC%A0%80%EC%9E%91%EA%B6%8C-%EA%B7%80%EC%86%8D%C2%B7%EC%86%90%ED%95%B4%EB%B0%B0%EC%83%81%EC%9D%80-4%EC%B2%9C%EB%A7%8C-%EC%9B%90-%EB%B0%B0%EC%83%81-%EC%82%AC%EB%A1%80-%EC%B4%9D%EC%A0%95%EB%A6%AC-j3wnko2748y6)
+
+**⚠️ 확인하지 못한 것**
+- **『The Mom Test』 질문 원칙**은 이번 검색에서 근거 자료를 찾지 못해 기존 지식으로 요약했어요.
+- **2026년 예비·초기창업패키지 금액**은 기사·블로그 기준이고 공고문 원문은 보지 못했어요.
+- **법인세율 2026년 인상(10·20·22·25%)** 과 **성실신고 기준 금액**은 세무 업체 해설 기준이에요. 국세청 공지로 확인하세요.
+- **간편장부 대상 기준, 세금 신고 월**은 기존 지식으로 적었어요.
+- **상표 출원 관납료**는 자료마다 달랐어요(46,000원 / 62,000원). 심사 기간은 찾지 못했어요.
+- **AI 결과물 저작권 기준**은 안내서 원문이 아니라 해설 기사로 확인했어요.
+- **한국 다크 패턴 규제 강화**, **가격 심리 기법**, **RFM·코호트**, **번아웃 관리**, **이용약관·보험·폐업 절차**는 이번 조사에서 별도로 확인하지 않은 일반 지식이에요. 특히 개인정보 손해배상책임 보험 의무의 대상 기준은 직접 확인하세요.
+- **한국 해외 매출 영세율**, **GDPR 적용·EU 대리인 지정**은 이번 검색에서 근거를 찾지 못해 일반론으로만 적었어요.
+- **과기정통부 SW 표준계약서**의 세부 조항(하자보수 기간·소스코드 조항)은 확인하지 못했어요.
+- **51장 파이썬 예제**는 예시 데이터로 실제 실행해 결과를 확인했어요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
