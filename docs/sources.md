@@ -362,6 +362,57 @@
 
 ---
 
+## 57장 바이브코딩 수익 사례
+
+### 피터 레벨스 (fly.pieter.com)
+- [본인 글: 17일 만에 ARR 100만 달러 (levels.io)](https://levels.io/full-multiplayer-python-websockets-game-ai)
+- [바이브코딩 게임이 월 5만 달러 — 당신은 아마 못 번다 (404 Media)](https://404media.co/this-game-created-by-ai-vibe-coding-makes-50-000-a-month-yours-probably-wont)
+- [3시간 만에 만들고 17일 만에 ARR 100만 달러, 그 뒤 (DEV)](https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l)
+- [수익을 내는 바이브코딩 앱 4가지 (Indie Hackers)](https://www.indiehackers.com/post/2NUIOp80SUWuPmmfKoS9)
+- [3시간 바이브코딩으로 월 1.2억 게임, 피터 레벨스 분석 (조쉬)](https://maily.so/josh/posts/mjz63lnyzwk)
+
+### 마크 루 (TrustMRR)
+- [TrustMRR 리뷰 (MakerStack)](https://makerstack.co/reviews/trustmrr-review/)
+- [마크 루 프로필 (yespress)](https://yespress.io/marc-lou.md)
+
+### Base44
+- [윅스, Base44 인수 (Globes)](https://en.globes.co.il/en/article-wix-acquires-israeli-vibe-coding-co-base44-1001513267)
+- [윅스, Base44를 8,000만 달러에 인수 (TipRanks)](https://www.tipranks.com/news/ma-news-wix-com-wix-acquires-base44-for-80m)
+- [6개월 만의 인수 (DesignRush)](https://news.designrush.com/wix-buys-ai-startup-base44-for-80m-six-month-sprint-deal)
+
+### Plinq
+- [사브리나 마투스가 Plinq를 만든 방법 (Lovable 블로그, 한국어)](https://lovable.dev/ko/blog/how-sabrine-matos-built-plinq)
+- [Plinq 투자 유치 (LatamList)](https://latamlist.com/plinq-raises-254k-to-launch-safety-app-for-women-in-brazil/)
+
+### 국내 외주 사례 (불혹코딩)
+- [요즘IT 기고 (위시켓)](https://yozm.wishket.com/magazine/detail/3466/)
+- [8개월 100건, 2,400만원 사례집 (요즘IT)](https://yozm.wishket.com/magazine/detail/3803)
+- [『요즘 바이브 코딩 커서 X 클로드 코드 실전 외주 돈 벌기』 (교보문고)](https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000013040613)
+
+### 실패·보안 사례
+- [EnrichLead, 일주일 만에 종료 (Vibe Graveyard)](https://vibegraveyard.ai/story/enrichlead-vibe-coded-saas-shutdown/)
+- [바이브코딩의 보안 문제 (Indie Hackers)](https://www.indiehackers.com/post/vibe-coding-has-a-security-problem-vLxyPTrTlZVwDo76oqvr)
+- [CVE-2025-48757 (Intruder)](https://cvemon.intruder.io/cves/CVE-2025-48757)
+- [바이브코딩 앱 API 키 노출 (Kodu)](https://blog.kodu.cloud/vibe-coded-apps-leaked-api-keys)
+
+### 참고 (근거가 약해 본문에 넣지 않은 것)
+- [바이브코딩 SaaS 1만 달러 MRR 사례 (Medium)](https://medium.com/@samyabratamaji828/these-vibe-coded-saas-products-make-10k-mrr-real-case-studies-8a2b5783892b) — TrendFeed 등. 개인 블로그 글이라 제외했어요.
+- [18살 비개발자도 앱으로 수천만원 (조쉬)](https://maily.so/josh/posts/8do7kvwyrgq)
+
+**⚠️ 확인하지 못한 것**
+- **모든 매출 숫자**는 본인 SNS 발표나 도구 회사 홍보 글이에요. 감사를 거친 숫자가 아니에요.
+- **fly.pieter.com의 현재 수익**은 자료끼리 정반대예요(월 0달러 / 월 13만 8천 달러).
+- **"70개 이상 프로젝트 중 4개 성공"**이라는 피터 레벨스의 말은 국내 해설 글에서만 봤어요. 원문은 찾지 못했어요.
+- **피터 레벨스의 팔로워 규모**("수십만 명")는 일반 지식으로 적었어요.
+- **levels.io, maily.so**는 이 세션의 네트워크 설정 때문에 직접 열어 보지 못했어요. 검색 결과 요약으로만 확인했어요.
+- **TrustMRR 출시일**(10월 30일 / 11월)과 **제작 시간**(24시간 / 48시간)이 자료마다 달라요.
+- **Base44 직원 수**(6명 / 8명), **Plinq 사용자 수·투자 금액**이 자료마다 달라요.
+- **불혹코딩 외주 건수**(70건 이상 / 100건)가 자료마다 달라요. 기고와 책 저자가 같은 사람이라는 것은 필명과 경력으로 추정했어요.
+- **EnrichLead 개발자 이름**은 자료마다 표기가 달라서 본문에 넣지 않았어요.
+- **"바이브코딩"이라는 말이 2025년 초부터 퍼졌다**는 내용은 일반 지식으로 적었어요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
