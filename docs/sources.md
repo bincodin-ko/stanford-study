@@ -500,6 +500,64 @@
 
 ---
 
+## 65~74장 (빠진 항목 보강)
+
+### 65장 로그인·권한
+- [OWASP 비밀번호 저장 치트시트 (공식)](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+
+### 66장 자주 쓰는 기능
+- 한국어 검색 예제는 SQLite 3.45의 FTS5(기본·trigram)로 직접 실행해 확인했어요. 별도 외부 출처는 없어요.
+
+### 67장 AI 기능
+- [OWASP LLM 10대 위험 2025 해설 (HackerOne)](https://www.hackerone.com/ai/owasp-top-10-llms-2025)
+- [OWASP LLM 10대 위험 2025 정리 (F5)](https://www.f5.com/resources/infographic/owasp-llm-top10)
+- [OWASP LLM 10대 위험 2025 개요 (DEV)](https://dev.to/foxgem/overview-owasp-top-10-for-llm-applications-2025-a-comprehensive-guide-8pk)
+
+### 68장 속도·오류·접근성·비용
+- [코어 웹 바이탈 기준을 정한 방법 (web.dev 공식)](https://web.dev/articles/defining-core-web-vitals-thresholds)
+- [코어 웹 바이탈 기준표 (Specification)](https://specification.website/spec/performance/core-web-vitals/)
+
+### 69장 자동화·데이터 수집
+- [공개데이터 크롤링, 합법과 불법의 경계 (김경환 변호사, 다음)](https://v.daum.net/v/EyCb0hoKc4)
+- [야놀자 vs 여기어때 2심 (다음 뉴스)](https://v.daum.net/v/20220826110606958)
+- [크롤링 법적 쟁점 (Nepla)](https://www.nepla.ai/nest/@xxWIvIKZwKx7/insight/크롤링-스크래핑-에-관한-법적-쟁점과-크롤링시-고려-사항-jw5dnz68e6kz)
+
+### 70장 노무
+- [2026 최저임금 인상 가이드 (시프티)](https://shiftee.io/ko/blog/article/2026-minimum-wage-increase-guide-for-hr-managers)
+- [2026 최저임금 월급 환산표 (비즈폼)](https://www.bizforms.co.kr/365guide/view.asp?number=254)
+- [근로계약서 필수 기재사항 (시프티)](https://shiftee.io/ko/blog/article/employment-contract-required-entries-guide)
+- [근로계약서 필수 항목 (샤플웍스)](https://www.shoplworks.com/blog/insight/essential-items-employment-contract)
+- [2026년 4대보험 요율 총정리 (아시아탑)](https://asiatop.co.kr/insurance-labor/four-insurance-rate-2026-summary/)
+- [4대보험 요율과 계산 (위키독스)](https://wikidocs.net/blog/@Insight_Lab/23005/)
+
+### 71장 세금·보험·신고
+- [적격증빙 4가지 (더체크)](https://thecheck.co.kr/?p=3514)
+- [증빙불비 가산세 (택스가이드)](https://taxguide.im/blog/penalty-for-failure-to-receive-qualifying-proof)
+- [노란우산공제 소득공제 한도 2026 (위키독스)](https://wikidocs.net/blog/@Insight_Lab/22095/)
+- [노란우산 납입한도 확대, 공제는 600만 원 (매일신문)](https://www.imaeil.com/page/view/2026100307144336255)
+- [부가통신사업 신고 (아이뉴스24)](https://www.inews24.com/view/1313798)
+- [경품 제세공과금 (세이브택스)](https://www.save-tax.co.kr/blog/%EA%B2%BD%ED%92%88-%EC%84%B8%EA%B8%88-%EB%82%B4%EA%B3%A0-%EB%B0%9B%EC%95%84%EC%95%BC-%ED%95%9C%EB%8B%A4-%EC%9D%98%EC%99%B8%EC%9D%98-%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98-%ED%95%AD%EB%AA%A9-5%EA%B0%80)
+
+### 10장 보강 (개인정보 유출 신고)
+- [유출 신고 안내 (개인정보보호위원회)](https://pipc.go.kr/np/default/page.do?mCode=D030040000)
+- [유출 '의심'만 돼도 72시간 내 고지 (MTN)](https://news.mtn.co.kr/news-detail/2026060210061182263)
+- [개인정보 과징금 매출 10% (파이낸셜뉴스)](https://www.fnnews.com/news/202609101158195934)
+
+**⚠️ 확인하지 못한 것**
+- **실행 예제 7개**(비밀번호 저장, 파일 검사, 한국어 검색, AI 비용, 최저 월급, 4대보험)는 문서에 적힌 그대로 실행해 결과를 확인했어요. 2026년 최저 월급 2,156,880원은 안내 자료 숫자와 같아요.
+- **2026년 4대보험 요율**(국민연금 9.5%, 건강보험 7.19%, 장기요양 13.14%)은 안내 사이트 기준이고 공단 고시 원문은 보지 못했어요. **고용보험 사업주 추가분 0.25%**와 **산재 1%**는 예시로 정한 값이에요.
+- **근로계약서 미작성 벌금·과태료 금액**, **5인 미만 적용 여부**, **4대보험 취득 신고 기한**, **퇴사 후 14일 정산**은 블로그·일반 지식 기준이에요. 근로기준법 원문을 확인하지 못했어요.
+- **노란우산공제** 소득 구간별 한도와 2026년 **납입 한도**는 자료마다 달라 확정하지 못했어요.
+- **간이과세 기준 금액**, **1인 자영업자 고용·산재보험**, **지역가입자 보험료 반영 시점**은 일반 지식이에요.
+- **부가통신사업 신고**의 정확한 요건은 시행령 원문을 확인하지 못했어요.
+- **경품 부가세 처리**는 자료끼리 설명이 달라 본문에 넣지 않았어요.
+- **개인정보법 2026년 9월 개정**은 기사로 확인했고, "1천 명 기준"이 시행령으로 옮겨졌는지 등 세부 조문은 확인하지 못했어요.
+- **크롤링 판례**는 기사·변호사 칼럼 기준이고 판결문 원문은 보지 못했어요.
+- **소셜 로그인·OAuth 흐름**, **세션·토큰·쿠키 설정**, **패스키**, **회원 탈퇴·장기 미사용 계정**, **업로드·알림·예약 작업·관리자 화면**, **접근성 항목·다크 모드**, **로그·오류 추적**, **클라우드 예산 알림**, **자동화 도구**, **택배·재고·포장·반품 실무**, **RICE·이벤트 공지·추천인 프로그램·콜드메일·B2G**, **공부법·정보 수집**은 업계 일반 지식으로 썼어요.
+- **AI 비용 예제의 가격**은 계산 연습용 예시예요. 실제 AI 회사 가격이 아니에요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

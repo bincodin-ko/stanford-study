@@ -106,6 +106,8 @@
 
 ---
 
+> 로그인·비밀번호 저장·권한 설계는 [65장](65-auth-and-accounts.md), 파일 업로드 보안은 [66장](66-common-service-features.md), AI 기능 보안은 [67장](67-adding-ai-features.md)에 있어요.
+
 ## 5. 해킹·유출이 의심될 때
 
 ```
