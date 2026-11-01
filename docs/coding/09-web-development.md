@@ -143,6 +143,8 @@ products.forEach(p => console.log(p.name, p.price));
 | PATCH | `/api/products/2` | 2번 상품 수정 |
 | DELETE | `/api/products/2` | 2번 상품 삭제 |
 
+> 상태 코드, 에러 모양, 페이지네이션, 중복 주문 막기(멱등성 키) 같은 실전 규칙은 [사업 60장 API 설계](../60-api-design.md)에 있어요.
+
 ---
 
 ## 5. 데이터베이스와 SQL
@@ -154,6 +156,8 @@ products.forEach(p => console.log(p.name, p.price));
 |---|---|---|
 | 1 | 쿠키 | 3000 |
 | 2 | 그래놀라 | 12900 |
+
+> 표를 어떻게 나누고 연결할지(설계)는 [사업 59장 데이터베이스 설계](../59-database-design.md)에 있어요.
 
 ### SQL 기본 4가지 (CRUD)
 ```sql

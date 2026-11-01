@@ -1,6 +1,6 @@
 # 04. 기획과 설계 — 아이디어에서 출시까지
 
-> 만들기 전에 수요를 확인하는 방법은 [42장](42-idea-validation.md), 화면·문구는 [48장](48-ux-ui-copywriting.md), 직접 해 보는 실습은 [55장](55-capstone-project.md)에 있어요.
+> 만들기 전에 수요를 확인하는 방법은 [42장](42-idea-validation.md), 화면·문구는 [48장](48-ux-ui-copywriting.md), 직접 해 보는 실습은 [55장](55-capstone-project.md)에 있어요. 코드·데이터·API 구조 설계는 [58~60장](58-architecture-and-modules.md)에서 다뤄요.
 
 사이트를 만드는 일은 **집 짓기**와 같아요.
 설계도 없이 벽돌부터 쌓으면 나중에 부수고 다시 지어야 합니다.

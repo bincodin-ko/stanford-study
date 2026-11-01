@@ -413,6 +413,40 @@
 
 ---
 
+## 58~60장 (설계·모듈화 · 데이터베이스 설계 · API 설계)
+
+### 58장 설계와 모듈화
+- [모듈러 모놀리스 안의 기능별 구조 (Milan Jovanović)](https://www.milanjovanovic.tech/blog/where-vertical-slices-fit-inside-the-modular-monolith-architecture)
+- [기능별 패키지 구성 (Medium)](https://medium.com/@vitorbritto/the-package-by-feature-approach-c62a197a8a3d)
+- [모듈화란 무엇인가 (Substack)](https://kbaranowski.substack.com/p/what-does-modularity-mean)
+- [마이클 나이가드 결정 기록 템플릿 (clan)](https://clan.lol/docs/26.05/decisions/template)
+- [ADR 용어 설명 (Real Python)](https://realpython.com/ref/software-engineering-glossary/architecture-decision-record/)
+- [CLAUDE.md가 너무 길면 안 되는 이유 (tianpan)](https://tianpan.co/blog/2026-02-14-writing-effective-agent-instruction-files)
+- [CLAUDE.md 규칙 쓰기 (Better Stack)](https://betterstack.com/community/guides/ai/claude-md-rules/)
+
+### 59장 데이터베이스 설계
+- [정규화 1NF~BCNF (DigitalOcean)](https://www.digitalocean.com/community/tutorials/database-normalization)
+- [PostgreSQL "Don't Do This" 발표 자료 (FOSDEM 2023)](https://www.postgresql.eu/events/fosdem2023/sessions/session/4099/slides/361/DontDoThis.pdf)
+- [PostgreSQL에 돈 저장하기 (TechEarl)](https://techearl.com/store-money-postgresql)
+- [수파베이스 RLS 공식 문서](https://supabase.com/docs/guides/database/postgres/row-level-security)
+- [수파베이스 RLS 정책 작성 가이드 (공식)](https://supabase.com/docs/guides/getting-started/ai-prompts/database-rls-policies)
+
+### 60장 API 설계
+- [RFC 9457 Problem Details for HTTP APIs (IETF)](https://datatracker.ietf.org/doc/html/rfc9457)
+- [멱등성 요청 (Stripe 공식 문서)](https://docs.stripe.com/api/idempotent_requests)
+- [REST API 모범 사례 (env.dev)](https://env.dev/guides/rest-api-best-practices)
+
+**⚠️ 확인하지 못한 것**
+- **세 장의 예제 코드 3개**(결제 감싸기, SQLite 쇼핑몰 표, API 서버)는 문서에 적힌 그대로 실제 실행해 결과를 확인했어요. API 서버는 curl로도 확인했어요.
+- **"응집도·결합도", 3계층 구조, 설정은 환경 변수에** 같은 내용은 업계에서 널리 쓰는 일반 지식으로 적었어요. 특정 공식 문서를 근거로 하지 않았어요.
+- **ADR 템플릿 형식**은 나이가드의 원문이 아니라 그 형식을 옮긴 자료로 확인했어요.
+- **CLAUDE.md 길이 기준**(200~500줄 등)은 블로그 경험담이고 공식 기준이 아니에요. 본문의 "300줄 넘으면 나누기"는 예시로 정한 숫자예요.
+- **스트라이프 페이지네이션 파라미터**(`starting_after`, `limit` 1~100)는 검색 결과 요약으로 확인했어요.
+- **HTTP 상태 코드 뜻**, **OpenAPI**, **API 버전 관리 관례**, **403 대신 404를 주는 관례**는 일반 지식이에요.
+- **정규형 설명**은 입문 튜토리얼 수준으로 쉽게 줄였어요. 엄밀한 정의는 데이터베이스 교재를 보세요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
