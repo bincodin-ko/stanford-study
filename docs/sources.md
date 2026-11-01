@@ -447,6 +447,59 @@
 
 ---
 
+## 61~64장 (광고·홍보·마케팅 심화)
+
+### 61장 유료 광고 심화
+- [구글애즈 캠페인 유형별 정리 (AMPM 인사이드)](https://inside.ampm.co.kr/insight/59923)
+- [2026년 구글 광고의 종류·비용 (인마케팅)](https://inmarketing.kr/?p=3214)
+- [구글 실적 최대화(PMax) 개념 (아이보스)](https://www.i-boss.co.kr/ab-6141-72042)
+- [카카오모먼트 예산 (AMPM 인사이드)](https://inside.ampm.co.kr/insight/4096)
+- [카카오 비즈니스 광고 공식 안내 (카카오모먼트)](https://kakaobusiness.gitbook.io/main/ad/moment)
+- [쿠팡 광고 세팅 가이드 (AMPM 인사이드)](https://inside.ampm.co.kr/insight/59091)
+- [쿠팡 광고 운영 전략 (AMPM 인사이드)](https://inside.ampm.co.kr/insight/60422)
+- [쿠팡 광고 종류와 설정 (윈들리)](https://www.windly.cc/blog/coupang-ad-types-and-settings)
+- [메타 전환 API (AdsUploader)](https://adsuploader.com/blog/meta-conversions-api)
+- [iOS 추적 제한과 전환 손실 (TrueROAS)](https://www.trueroas.com/blog/ios-tracking-fix-lost-conversions)
+- [메타 광고 소재 테스트 (Segwise)](https://segwise.ai/blog/facebook-ad-creative-testing-framework)
+- [소재 피로와 테스트 (Darkroom)](https://www.darkroomagency.com/observatory/creative-fatigue-performance-testing-framework)
+
+### 62장 브랜딩·출시·PR·인플루언서
+- [에이프릴 던포드 포지셔닝 템플릿 (Miro, 한국어)](https://miro.com/ko/templates/april-dunfords-positioning-template/)
+- [프로덕트 헌트 출시 가이드 2026 (LaunchList)](https://app.getlaunchlist.com/blog/how-to-launch-on-product-hunt-2026)
+- [네트워크가 작은 사람을 위한 프로덕트 헌트 가이드 (DEV)](https://dev.to/ahmet_saridag_9232a4f1a24/a-product-hunt-launch-guide-that-doesnt-assume-your-network-is-already-huge-3h8o)
+- [스타트업 보도자료 (넥스트유니콘)](https://www.nextunicorn.kr/insight/32e7ef1f73ced445)
+- [보도자료 보내기 (브런치)](https://brunch.co.kr/@instinct/18)
+- [추천보증 심사지침 안내서 개정본 (뉴스서울)](https://newsseoul.co.kr/news/view/1065583816365047)
+- [AI 가상인물 광고 심사지침 개정안 (신&김 뉴스레터)](https://shinkim.com/kor/media/newsletter/pdf/3230)
+- [인플루언서 계약과 표시광고 (알법)](https://albup.co.kr/page/column_detail.php?content_id=2190)
+
+### 63장 콘텐츠·검색
+- [AI 기능과 내 웹사이트 (구글 검색 센터 공식)](https://developers.google.com/search/docs/appearance/ai-features)
+- [2026년 블로그 상위노출 총정리 (브런치)](https://brunch.co.kr/@imd08071/282)
+- [지금 검색 화면에서 벌어지는 일 — AI 브리핑 (아이보스)](https://www.i-boss.co.kr/ab-6141-71347)
+- [네이버 블로그 최적화 (위픽)](https://letter.wepick.kr/wiki/blog-naver-optimization)
+
+### 64장 자동 메시지
+- [친구톡 종료, 카카오 비즈니스 메시지 2026 (AMPM 인사이드)](https://inside.ampm.co.kr/insight/59098)
+- [알림톡 vs 브랜드 메시지 (비즈고)](https://blog.bizgo.io/howto/alimtalk-friendtalk-difference/)
+- [브랜드 메시지 발송 조건·비용 (비즈고)](https://blog.bizgo.io/?p=4391)
+
+**⚠️ 확인하지 못한 것**
+- **61장 손익분기 ROAS 예제 코드**는 문서에 적힌 그대로 실행해 결과를 확인했어요.
+- **광고 플랫폼 정보 대부분**(구글 캠페인 변화, 카카오 최소 입찰가, 쿠팡 예산·목표 ROAS)은 **광고 대행사·셀러 블로그** 기준이에요. 카카오 최소 입찰가는 **2023년 자료**라 지금은 다를 수 있어요.
+- **소재 테스트 숫자**(훅 비율 25~35%, 빈도 2.5~4회, 클릭률 20~30% 하락)는 업체 블로그 수치이고, 메타 공식 기준을 찾지 못했어요.
+- **"메타가 픽셀과 전환 API를 함께 쓰라고 권한다"**는 업체 자료로 확인했고, 메타 개발자 문서 원문은 보지 못했어요.
+- **포지셔닝 5단계**는 던포드의 책 원문이 아니라 템플릿·요약 자료를 바탕으로 쉽게 줄였어요.
+- **프로덕트 헌트 요령**은 업체·개인 가이드 글 기준이고 프로덕트 헌트 공식 안내가 아니에요. **해커 뉴스·인디 해커스·디스콰이엇** 설명은 일반 지식이에요.
+- **보도자료 발송 시간·방법**은 홍보 실무자 블로그 기준이에요. **기사형 광고 표시** 내용은 일반 지식이에요.
+- **추천보증 심사지침 2025년 12월 개정 내용**(제목·첫 부분 표시, 애매한 표현 금지)은 기사·법률 해설로 확인했고 공정위 원문은 보지 못했어요. **AI 가상인물 개정안**의 확정 여부도 확인하지 못했어요.
+- **네이버 AI 브리핑 적용 비율**(20~40%)은 자료마다 달라 확정할 수 없어요. **네이버 키워드 도구 사용법**은 일반 지식으로 적었어요.
+- **E-E-A-T**, **허브 앤 스포크**, **링크 판매 금지**는 이번 검색에서 구글 원문을 확인하지 못한 일반 지식이에요.
+- **알림톡·브랜드 메시지 규격**은 딜러사 블로그 기준이에요. **이메일 자동 흐름 6가지와 시점**, **애플 메일 열람률 부정확**, **비교 그룹 방식**은 업계 일반 지식이에요.
+- **"구매를 권하는 장바구니 메시지는 광고성으로 보는 게 안전"**은 카카오 템플릿 심사 기준(딜러사 설명)과 30장 법 규칙을 바탕으로 한 보수적 판단이에요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

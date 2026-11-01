@@ -1,6 +1,6 @@
 # 11. 마케팅과 데이터 — 손님을 데려오고 숫자로 판단하기
 
-> 인스타그램·네이버 등 **채널별 실제 시작 방법**은 [32장](32-marketing-channels.md), **분야별 시작법과 실제 사례**는 [33장](33-marketing-by-field-and-cases.md)에 있어요.
+> 인스타그램·네이버 등 **채널별 실제 시작 방법**은 [32장](32-marketing-channels.md), **분야별 시작법과 실제 사례**는 [33장](33-marketing-by-field-and-cases.md)에 있어요. 광고 심화는 [61장](61-paid-ads-deep-dive.md), 브랜딩·출시 홍보는 [62장](62-brand-launch-pr-influencer.md), 콘텐츠·검색 심화는 [63장](63-content-seo-ai-search.md), 자동 메시지는 [64장](64-automated-messaging-crm.md)에 있어요.
 
 ---
 
