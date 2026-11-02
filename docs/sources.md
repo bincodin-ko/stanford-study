@@ -653,6 +653,8 @@
 - [오픈소스 비밀 키 스캐너 비교 (AppSec Santa)](https://appsecsanta.com/secret-scanning-tools/best-open-source-secret-scanning-tools)
 - [비공개 저장소의 CodeQL (깃허브 문서)](https://docs.github.com/en/code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-analysis-errors/cannot-enable-codeql-in-a-private-repository)
 - [cargo audit (RustSec)](https://rustsec.org/)
+- [오픈소스 침투 테스트 도구 14가지 (TechTarget)](https://www.techtarget.com/cybersecurity/tip/Top-14-open-source-penetration-testing-tools)
+- [Nuclei vs OWASP ZAP (Penetrify)](https://www.penetrify.cloud/en/compare/nuclei-vs-owasp-zap/)
 
 **⚠️ 확인하지 못한 것**
 - **IDOR 예제**는 문서에 적힌 그대로 실행해 확인했어요. **한 바퀴 앱의 보안 헤더·경로 조작 테스트**는 앱 테스트로 확인했어요.
@@ -662,6 +664,7 @@
 - **Qwen2.5-Coder의 3B 라이선스 예외**, **보안 리뷰 성능**은 확인하지 못했어요.
 - **Gitleaks·cargo audit·ZAP을 이 작업 환경에서 직접 실행**하는 것은 도구 설치가 허용되지 않아 하지 못했어요. 한 바퀴 앱의 보안 워크플로는 깃허브에서 첫 실행 때 확인돼요.
 - **클로드 보안 리뷰 액션의 버전 표기(@main)와 입력 이름**은 미러·문서 색인 기준이라 공식 저장소에서 확인이 필요해요.
+- **침투 테스트 도구 라이선스**: ZAP(Apache-2.0)만 확인했고 **Nmap·Metasploit·Nikto·Nuclei**의 라이선스·사용 조건은 각 프로젝트에서 확인이 필요해요. **ZAP 운영 주체**(OWASP → Software Security Project → Checkmarx)도 자료마다 달라요.
 
 ---
 
