@@ -668,6 +668,56 @@
 
 ---
 
+## 82~84장 (보안 확장: CodeQL·전체 지도·사고 사례)
+
+### 82장 보강 — CodeQL·깃허브 보안 기능
+- [CodeQL의 Rust 정식 지원 (깃허브 변경 이력, 2025-10-14)](https://github.blog/changelog/2025-10-14-codeql-scanning-rust-and-c-c-without-builds-is-now-generally-available)
+- [CodeQL 2.23.3 Rust 규칙 (깃허브 변경 이력)](https://github.blog/changelog/2025-10-23-codeql-2-23-3-adds-a-new-rust-query-rust-support-and-easier-c-c-scanning)
+- [코드 스캐닝 기본 설정 (깃허브 문서)](https://docs.github.com/en/code-security/how-tos/scan-code-for-vulnerabilities/configure-code-scanning/configuring-default-setup-for-code-scanning)
+- [Secret Protection·Code Security 출시와 가격 (깃허브 변경 이력)](https://github.blog/changelog/2025-03-04-introducing-github-secret-protection-and-github-code-security/)
+
+### 83장 보안 전체 지도
+- [OWASP Top 10 2025 소개 (OWASP)](https://owasp.org/Top10/2025/0x00_2025-Introduction/)
+- [OWASP Top 10 2025: 접근 통제 실패 여전히 1위 (The Register)](https://www.theregister.com/2025/11/11/new_owasp_top_ten_broken/)
+- [서브도메인 탈취와 댕글링 DNS (Red Sift)](https://redsift.com/blog/dangling-dns-find-and-fix)
+
+### 84장 국내 사례
+- [SKT 과징금 1,348억 (전북일보)](https://www.jjan.kr/article/20250828580061)
+- [SKT 최종 조사 결과 (디지털데일리)](https://www.ddaily.co.kr/page/view/2025070412563749518)
+- [쿠팡 3,370만 계정 유출과 인증키 관리 (CIO)](https://www.cio.com/article/4098352/)
+- [쿠팡 유출 결산 (보안뉴스)](https://m.boannews.com/html/detail.html?idx=141221)
+- [예스24 랜섬웨어 원인 (보안뉴스)](https://m.boannews.com/html/detail.html?idx=137603)
+- [예스24 재공격·백업 복구 (디지털데일리)](https://www.ddaily.co.kr/page/view/2025081110071397714)
+- [롯데카드 웹로직 7년 방치 (디지털데일리)](https://www.ddaily.co.kr/page/view/2025101014431200842)
+- [롯데카드 해킹 후 성찰 (보안뉴스)](https://m.boannews.com/html/detail.html?idx=142751)
+- [KT 불법 펨토셀 조사 결과 (뉴시스)](https://mobile.newsis.com/view/NISX20251106_0003392746)
+- [GS리테일 크리덴셜 스터핑 (보안뉴스)](https://m.boannews.com/html/detail.html?idx=135478)
+- [GS샵 158만 건 유출 (보안뉴스)](https://m.boannews.com/html/detail.html?idx=136291)
+
+### 84장 해외 사례
+- [스노우플레이크 고객사 침해 (CyberInsider)](https://cyberinsider.com/hackers-target-snowflake-customer-instances-for-data-theft-and-extortion/)
+- [캐피털원 해킹에서 배울 점 (Krebs on Security)](https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/)
+- [캐피털원 사고 (Wiz 사고 데이터베이스)](https://threats.wiz.io/all-incidents/capital-one-incident-march-2019)
+- [MOVEit CVE-2023-34362 (CybelAngel)](https://cybelangel.com/blog/moveit-cl0p-breach/)
+- [Tea 앱 유출 (404 Media)](https://www.404media.co/women-dating-safety-app-tea-breached-users-ids-posted-to-4chan/)
+- [Tea 앱 7만 2천 장 유출 (CyberInsider)](https://cyberinsider.com/tea-app-suffers-data-breach-exposing-72000-users-photos-and-private-messages/)
+- [npm 공급망 공격·Shai-Hulud (Pulsedive)](https://blog.pulsedive.com/npm-compromise-the-wrath-of-the-shai-hulud-supply-chain-attack/)
+- [polyfill.io 공급망 공격 (The Hacker News)](https://thehackernews.com/2024/06/over-110000-websites-affected-by.html)
+- [polyfill.io 38만 호스트 (The Hacker News)](https://thehackernews.com/2024/07/polyfillio-attack-impacts-over-380000.html)
+- [우버 MFA 피로 공격 (InfoQ)](https://www.infoq.com/news/2022/09/Uber-breach-mfa-fatigue/)
+- [MGM 헬프데스크 사칭 (Computing)](https://www.computing.co.uk/news/4126034/mgm-resorts-hackers-deceived-service-desk-phone)
+- [23andMe 크리덴셜 스터핑 (BleepingComputer)](https://bleepingcomputer.com/news/security/genetics-firm-23andme-says-user-data-stolen-in-credential-stuffing-attack)
+- [LastPass 엔지니어 집 PC 침해 (Help Net Security)](https://www.helpnetsecurity.com/2023/02/28/lastpass-breach-corporate-vault/)
+
+**⚠️ 확인하지 못한 것**
+- **깃허브 보안 기능 가격**은 2025년 4월 출시 가격이에요. 이후 변경 여부는 깃허브 가격 페이지에서 확인하세요.
+- **OWASP Top 10 2025**의 A04~A09 세부 순서는 이번 검색에서 원문으로 확인하지 못해 묶어서 적었어요. 최종본 공개 시점도 자료마다 달라요.
+- **사례 숫자**(유출 건수·피해자 수·과징금)는 기사·발표마다 다른 경우가 있어 대표 수치만 적었어요. 쿠팡·KT는 **수사·조사가 진행 중**이었고, 예스24의 **몸값 지불**은 보도일 뿐 회사가 확인하지 않았어요.
+- **캐피털원 피해 규모(1억 명 이상)**, **노출된 몽고DB·엘라스틱서치 몸값 공격**, **OWASP API·Mobile Top 10 내용**, **STRIDE**, **IMDSv2·SRI·CSP·DMARC 단계 적용**, **3-2-1·불변 백업**, **2025년 깃허브 액션 오염 사건**은 이번 검색에서 원문을 확인하지 못한 일반 지식이에요.
+- **Tea 앱의 AI 코드 사용 여부**는 회사가 부인했고 확인되지 않았어요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
