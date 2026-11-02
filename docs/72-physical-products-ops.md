@@ -2,6 +2,8 @@
 
 > 오픈마켓 판매는 [23장](23-marketplace-sellers.md), 물류 용어·주문 상태 흐름은 [35장](35-domain-knowledge.md), 청약철회(환불) 법 규칙은 [10장](10-security-and-law.md)에 있어요. 이 장은 **매일 손으로 하는 일**을 정리했어요.
 
+> 전기용품·어린이제품 등의 KC 인증·전파 인증은 [77장](77-government-registrations-certifications.md)에 있어요.
+
 > ⚠️ 택배 단가·계약 조건은 지역·물량·업체마다 크게 달라요. 이 장의 내용은 **일반적인 실무 요령**이고, 숫자는 직접 견적을 받아 확인하세요. ([참고 자료 모음](sources.md))
 
 ---

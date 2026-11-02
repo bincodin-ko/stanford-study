@@ -558,6 +558,67 @@
 
 ---
 
+## 75~79장 (관문·등록·인증·구독 규칙·개발 도구 보강)
+
+### 75장 설치형 프로그램과 코드 서명
+- [SmartScreen 평판 (마이크로소프트 공식)](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation)
+- [EV 인증서의 즉시 평판 혜택 종료 (ToDesktop)](https://www.todesktop.com/blog/posts/windows-apps-psa-ev-certs-do-not-grant-immediate-reputation-anymore)
+- [MSIX 서명 개요·비용 비교 (마이크로소프트)](https://learn.microsoft.com/en-sg/windows/msix/package/signing-package-overview)
+- [Azure Artifact Signing (마이크로소프트)](https://azure.microsoft.com/en-us/products/artifact-signing)
+- [Artifact Signing 대상 국가 문답 (Microsoft Q&A)](https://learn.microsoft.com/en-us/answers/questions/2243504/trusted-signing-for-other-countries)
+- [OV vs EV 코드 서명 비교 (SSL Insights)](https://sslinsights.com/ov-code-signing-vs-ev-code-signing-certificate/)
+- [개인사업자 EV·IV 코드 서명 (SSL.com)](https://ssl.com/certificates/iv-ev-code-signing/buy/)
+- [macOS 배포 전 공증 (애플 공식)](https://developer.apple.com/documentation/security/notarizing-macos-software-before-distribution)
+- [일렉트론 코드 서명 (공식 문서)](https://www.electronjs.org/docs/latest/tutorial/code-signing)
+
+### 76장 플랫폼 관문
+- [구글 플레이 12명 테스터 규칙 (Choicely)](https://www.choicely.com/blog/google-play-12-tester-rule)
+- [구글 플레이 비공개 테스트 2026 (ExtendsClass)](https://extendsclass.com/blog/google-plays-closed-testing-requirement-what-developers-need-to-know-in-2026)
+- [애플 심사 지침 5.1.1(v) 계정 삭제 (애플 공식)](https://developer.apple.com/help/app-review/guideline-reference/5-1-1-account-deletion)
+- [앱 계정 삭제 요건 (Newly)](https://newly.app/how-to/account-deletion-requirement)
+- [앱 접근권한 고지 — ISMS-P 기준 해설 (IT위키)](https://itwiki.kr/w/ISMS-P_%EC%9D%B8%EC%A6%9D_%EA%B8%B0%EC%A4%80_3.2.3.%EC%9D%B4%EC%9A%A9%EC%9E%90_%EB%8B%A8%EB%A7%90%EA%B8%B0_%EC%A0%91%EA%B7%BC_%EB%B3%B4%ED%98%B8)
+- [크롬 웹스토어 등록비 (Chromium 블로그)](https://blog.chromium.org/2020/03/new-developer-dashboard-and.html)
+- [스팀 다이렉트 등록비 (스팀웍스 공식)](https://partner.steamgames.com/doc/gettingstarted/appfee)
+- [구글 OAuth 확인되지 않은 앱 (구글 클라우드 도움말)](https://support.google.com/cloud/answer/7454865)
+- [카카오싱크·비즈 앱 사전 준비 (카카오 디벨로퍼스)](https://developers.kakao.com/docs/latest/ko/kakaosync/prerequisite)
+- [사업자 번호 없이 비즈 앱 (카카오 데브톡)](https://devtalk.kakao.com/t/how-can-i-switch-to-a-biz-app-if-i-do-not-have-any-business-registration-number/71983)
+- [Gmail·야후 대량 발송 요건 (Customer.io)](https://customer.io/learn/deliverability/email-sending-requirements-gmail-yahoo)
+- [발신번호 사전등록제 (비즈고)](https://blog.bizgo.io/?p=3147)
+- [2026 문자사업자 등록요건 강화 (비즈고)](https://blog.bizgo.io/trend/sms-business-registration-requirements/)
+
+### 77장 정부·인증기관
+- [KC 인증 가이드 (윈들리)](https://www.windly.cc/blog/kc-certification-guide-with-lookc-service)
+- [KC 마크 표시 (윈들리)](https://www.windly.cc/blog/kcmark-guide-and-how-to-use)
+- [벤처기업 인증 유형 (택스가이드)](https://taxguide.im/blog/venture-certification-types-overview-guide)
+- [기업부설연구소 규제 완화 (다음 칼럼)](https://v.daum.net/v/xegPNIFYFm)
+- [소프트웨어사업자 신고 (guard1004)](https://www.guard1004.com/190)
+- [ISMS-P 인증 대상 (IT위키)](https://www.itwiki.kr/w/ISMS-P_%EC%9D%B8%EC%A6%9D_%EB%8C%80%EC%83%81)
+- [ISMS-P 의무 대상 구체화 시행령 개정안 (디지털데일리)](https://www.ddaily.co.kr/page/view/2026060209483580759)
+
+### 78장 구독·디지털 상품
+- [다크패턴 6가지 규제 유형 (아임웹)](https://imweb.me/blog?idx=496)
+- [6개 유형 다크패턴 문답서 배포 (뉴스서울)](https://www.newsseoul.co.kr/news/view/1065579616591557)
+- [다크패턴 첫 제재 (노컷뉴스)](https://www.nocutnews.co.kr/news/6456984)
+- [전자상거래법 청약철회 (korea.legal)](https://korea.legal/wiki/%EC%A0%84%EC%9E%90%EC%83%81%EA%B1%B0%EB%9E%98-%EC%B2%AD%EC%95%BD%EC%B2%A0%ED%9A%8C/)
+
+### 79장 정규식·도커·의존성
+- 정규식 예제와 도커 빌드·실행(이미지 생성, 응답 확인, 일반 사용자 실행)은 이 작업 환경에서 직접 실행해 확인했어요. 별도 외부 출처는 없어요.
+
+**⚠️ 확인하지 못한 것**
+- **코드 서명 인증서 가격**은 판매처마다 크게 달라 범위로만 적었어요. **Azure Artifact Signing의 개인 대상 국가(미국·캐나다)**는 커뮤니티 답변 기준이고, 한국 법인 가능 여부는 확인하지 못했어요.
+- **애플 개발자 프로그램 연회비**는 이번 검색에서 확인하지 못해 금액을 적지 않았어요.
+- **백신 오탐 신고 창구**, **VirusTotal 주의점**, **심사 거절 흔한 이유**, **ATT**는 일반 지식이에요.
+- **구글 플레이 12명·14일 규칙**은 개발자 블로그 기준이고 구글 도움말 원문은 보지 못했어요. 신원 확인 절차 세부도 확인 못 했어요.
+- **카카오 비즈 앱·검수**는 데브톡 답변 기준이에요. **네이버 로그인 검수**는 일반 지식이에요.
+- **문자 발송 2026년 변경**(식별코드·전송자격인증 날짜)은 자료마다 달라요.
+- **KC 인증 품목 기준·구매대행 과태료**, **벤처기업 혜택**, **연구소 요건**, **SW사업자 신고 수수료·대상**, **청소년 보호책임자 기준**은 확인하지 못했어요.
+- **특허 공개 예외 기간·BM 특허 기준·KIPRIS**, **프로그램 저작권 등록 효과**는 일반 지식이에요.
+- **숨은 갱신 "30일 전 고지·동의"**와 **과태료 금액**은 블로그·기사 기준이라 법령 원문 확인이 필요해요.
+- **미성년자 계약 취소**는 민법 일반 원칙으로 적었고, 게임·앱 결제 적용 기준은 확인하지 못했어요.
+- **도커 사용 규칙**, **의존성 관리 방법(Dependabot·npm audit·pip-audit)**, **타이포스쿼팅·AI가 지어낸 패키지 이름**, **ReDoS**는 일반 지식이에요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도
