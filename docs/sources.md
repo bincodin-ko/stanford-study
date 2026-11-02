@@ -619,6 +619,28 @@
 
 ---
 
+## 80~81장 (제품 기획·최적화와 안정화)
+
+### 80장 제품 기획
+- 이 저장소의 `product/` 기획 문서를 합친 장이에요. 외부 출처는 각 장(42·58~60·62·65·67·81장 등)의 출처를 따라요.
+
+### 81장 최적화와 안정화
+- [에러 예산 정책 예시 (구글 SRE 워크북)](https://sre.google/workbook/error-budget-policy/)
+- [SLO 용어 (Real Python)](https://realpython.com/ref/software-engineering-glossary/service-level-objective-slo/)
+- [에러 예산 (Netdata)](https://www.netdata.cloud/academy/error-budget/)
+- [타임아웃·재시도·백오프와 지터 (아마존 빌더스 라이브러리)](https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter)
+- [카나리 릴리스 (마틴 파울러)](https://www.martinfowler.com/bliki/CanaryRelease.html)
+- [하이퍼케어란 (Helply)](https://helply.com/blog/what-is-hypercare)
+- [하이퍼케어 기간·끝내는 기준 (SupportBench)](https://www.supportbench.com/?p=27690)
+
+**⚠️ 확인하지 못한 것**
+- **실행 예제 4개**(에러 예산 계산, 재시도·차단기, N+1 쿼리 수, 인덱스 전후 측정)는 문서에 적힌 그대로 실행해 확인했어요. 인덱스 측정 시간은 이 작업 환경 기준이고 컴퓨터마다 달라요.
+- **에러 예산 75% 기준**, **안정화 기간 끝내는 기준 예시**, **행사 배수 5~10배**는 예시로 정한 값이에요.
+- **서킷 브레이커에 대한 마틴 파울러의 원문**은 이번 검색에서 확인하지 못했어요. 차단기 설명은 일반 지식과 아마존 글 요약을 바탕으로 했어요.
+- **N+1 문제**, **커누스의 "섣부른 최적화" 인용**, **프로파일러 도구 이름(cProfile, cargo flamegraph)**, **금요일 배포 금지 관례**는 이번 검색에서 원문을 확인하지 못한 일반 지식이에요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

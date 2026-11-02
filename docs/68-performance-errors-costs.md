@@ -2,6 +2,8 @@
 
 > 모니터링·장애 대응 기본은 [9장](09-operations.md), 호스팅 선택은 [36장](36-choosing-hosting.md), 출시 전 점검은 [38장](38-launch-checklist-for-claude.md)에 있어요. 이 장은 **출시 후 품질과 돈을 지키는** 운영 기술이에요.
 
+> 출시 후 안정화 기간, 가용성 목표·에러 예산, 타임아웃·재시도·차단기, 카나리 배포, 측정 기반 최적화·N+1은 [81장](81-optimization-and-stabilization.md)에 있어요.
+
 ---
 
 ## 1. 속도 — 느리면 손님이 떠나요

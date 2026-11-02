@@ -5,9 +5,9 @@
 | 문서 | 내용 |
 |---|---|
 | [01. 기획서 (PRD)](docs/01-prd.md) | 문제, 대상, 대안, 포지셔닝, MVP 기능, 성공 기준, 위험, 일정 |
-| [02. 진행표 — 단계와 스텝](docs/02-roadmap-steps.md) | 0~7단계 약 45개 스텝과 관련 장, 스텝 데이터 예시 |
+| [02. 진행표 — 단계와 스텝](docs/02-roadmap-steps.md) | 0~7단계 약 50개 스텝과 관련 장, 스텝 데이터 예시 |
 | [03. 설계](docs/03-architecture.md) | 기술 선택, 폴더 구조, 데이터, 화면, AI 코치, CLAUDE.md, 보안 |
-| [결정 기록 (ADR)](docs/decisions/) | 0001 웹 서비스 + AI 코치 |
+| [결정 기록 (ADR)](docs/decisions/) | 0001 웹 서비스 + AI 코치, 0002 Rust(Axum) + 서버 렌더링 |
 
 교재에는 이 문서들을 한 장으로 합친 [80장](../docs/80-product-plan-han-bakwi.md)이 있어요(PDF에도 포함). 원본은 이 폴더이고, 제품을 만들면서 여기부터 고쳐요.
 
