@@ -11,7 +11,7 @@
 > 모르는 단어는 [3장 용어 사전](docs/03-glossary.md)에서 바로 찾을 수 있어요.
 > 한눈에 보고 싶으면 [요약 슬라이드](slides/internet-business-101.pptx)를 먼저 넘겨 보세요.
 
-> 📄 **PDF로 보기**: [전체 교재 PDF](pdf/인터넷-사업-공부-교재.pdf) (사업 1~81장 + 코딩 노트 + 용어·퀴즈·참고 자료, 장 사이 링크 이동 가능) · [사업 요약 슬라이드 PDF](pdf/사업-요약-슬라이드.pdf) · [코딩 요약 슬라이드 PDF](pdf/코딩-요약-슬라이드.pdf). 문서를 고친 뒤 PDF를 다시 만드는 법은 [tools/make-pdf](tools/make-pdf/README.md)에 있어요.
+> 📄 **PDF로 보기**: [전체 교재 PDF](pdf/인터넷-사업-공부-교재.pdf) (사업 1~82장 + 코딩 노트 + 용어·퀴즈·참고 자료, 장 사이 링크 이동 가능) · [사업 요약 슬라이드 PDF](pdf/사업-요약-슬라이드.pdf) · [코딩 요약 슬라이드 PDF](pdf/코딩-요약-슬라이드.pdf). 문서를 고친 뒤 PDF를 다시 만드는 법은 [tools/make-pdf](tools/make-pdf/README.md)에 있어요.
 
 ## 공부 순서
 
@@ -96,8 +96,9 @@
 | | [77. 정부·인증기관 등록과 인증](docs/77-government-registrations-certifications.md) | KC·전파 인증, 프로그램 저작권 등록·특허, 벤처기업·기업부설연구소·SW사업자 신고, ISMS, 책임자 지정 |
 | | [78. 구독·디지털 상품 소비자 규칙](docs/78-subscription-digital-consumer-rules.md) | 2025 다크패턴 규제 6유형, 무료→유료 전환·가격 인상, 디지털 콘텐츠 환불 제한 조건, 미성년자 결제 |
 | | [79. 정규식·도커·의존성 관리](docs/79-regex-docker-dependencies.md) | 정규식 실습, 도커로 웹 서버 띄우기(실제 실행 확인), 보안 알림·가짜 패키지 주의 |
-| **21. 실습 사례·운영 품질** | [80. 이 교재로 만드는 제품 — "한 바퀴" 기획](docs/80-product-plan-han-bakwi.md) | 교재를 적용한 실제 제품 기획: 기획서·진행표 51스텝(실천용 목차)·Rust 설계·안정성 설계·결정 기록 |
+| **21. 실습 사례·운영 품질** | [80. 이 교재로 만드는 제품 — "한 바퀴" 기획](docs/80-product-plan-han-bakwi.md) | 교재를 적용한 실제 제품 기획: 기획서·진행표 53스텝(실천용 목차)·Rust 설계·안정성 설계·결정 기록 |
 | | [81. 최적화와 안정화](docs/81-optimization-and-stabilization.md) | 출시 후 안정화 기간, 가용성 목표·에러 예산, 타임아웃·재시도·차단기, 카나리 배포, 측정 기반 최적화·N+1 (실행 예제) |
+| | [82. AI 코드 보안 점검](docs/82-ai-code-security-review.md) | 도구·AI·실제 공격·테스트 4겹, AI 코드의 흔한 취약점, 오픈소스 지도(Semgrep·Gitleaks·Trivy·ZAP·CodeShield·허깅페이스 모델), 고치는 흐름(실행 예제) |
 
 ## 이 교재로 만드는 제품 (기획 중)
 

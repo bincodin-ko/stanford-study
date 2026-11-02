@@ -628,3 +628,23 @@
 
 <details><summary>정답 보기</summary><b>N+1 쿼리</b>. JOIN이나 IN으로 한 번에 묶어 조회하거나, ORM의 미리 함께 불러오기 기능을 쓴다. (81장)</details>
 
+---
+
+## 추가 문제 (82장)
+
+**Q141.** "AI 리뷰가 괜찮다고 했으니 안전하다"가 틀린 이유는?
+
+<details><summary>정답 보기</summary>엄격한 평가(PrimeVul)에서 코드 언어 모델의 취약점 탐지는 매우 낮았고 큰 모델도 무작위에 가까웠다. AI는 놓치거나 지어내므로 <b>도구·테스트·사람 승인</b>과 함께 쓴다. (82장)</details>
+
+**Q142.** 주문 번호만 바꾸면 남의 주문이 보이는 취약점의 이름과, 고칠 때 함께 해야 할 것은?
+
+<details><summary>정답 보기</summary><b>IDOR</b>(권한 확인 누락). 서버에서 본인 것인지 확인하도록 고치고, <b>"남의 주문은 안 보인다"는 테스트</b>를 먼저 추가해 고치기 전 실패·고친 뒤 통과를 확인한다. (82장)</details>
+
+**Q143.** Git 기록에서 API 키가 발견됐다. 기록에서 지우면 끝인가요?
+
+<details><summary>정답 보기</summary>아니다. 이미 퍼졌다고 가정하고 <b>키를 즉시 교체</b>한다. (82·37장)</details>
+
+**Q144.** 비밀 키 검사, 의존성 취약점 검사, 실행 중인 사이트 공격 검사에 쓰는 무료 오픈소스를 하나씩 고르면?
+
+<details><summary>정답 보기</summary>Gitleaks(비밀 키) / cargo audit·npm audit·pip-audit·Trivy·OSV-Scanner(의존성) / OWASP ZAP(실제 공격). (82장)</details>
+

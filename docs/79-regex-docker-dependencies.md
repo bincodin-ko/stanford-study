@@ -2,6 +2,8 @@
 
 > 개발 도구 기본은 [코딩 8장](coding/08-developer-tools.md), 고급 주제는 [코딩 10장](coding/10-advanced.md), 배포는 [7장](07-deploy-and-update.md)에 있어요. 이 장은 그동안 이름만 나왔던 세 가지를 실제로 써 보는 장이에요.
 
+> 의존성 검사를 포함한 보안 점검 전체 흐름은 [82장](82-ai-code-security-review.md)에 있어요.
+
 ---
 
 ## 1. 정규식 — 글자의 "패턴"을 찾는 작은 언어

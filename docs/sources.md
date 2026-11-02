@@ -641,6 +641,30 @@
 
 ---
 
+## 82장 AI 코드 보안 점검
+- [취약점 탐지 코드 언어 모델, 얼마나 왔나 — PrimeVul (arXiv)](https://arxiv.org/abs/2403.18624v2)
+- [Claude Code로 보안 리뷰 자동화 (Anthropic)](https://www.anthropic.com/news/automate-security-reviews-with-claude-code)
+- [Claude Code 자동 보안 리뷰 (Anthropic 고객센터)](https://support.anthropic.com/en/articles/11932705-automated-security-reviews-in-claude-code)
+- [CodeShield 문서 (메타 PurpleLlama/LlamaFirewall)](https://meta-llama.github.io/PurpleLlama/LlamaFirewall/docs/documentation/scanners/code-shield)
+- [Foundation-Sec-8B (허깅페이스)](https://huggingface.co/fdtn-ai/Foundation-Sec-8B)
+- [Foundation-Sec-8B 소개 (시스코)](https://blogs.cisco.com/security/foundation-sec-cisco-foundation-ai-first-open-source-security-model)
+- [Foundation-Sec-8B 라이선스 고지 (허깅페이스 NOTICE)](https://huggingface.co/fdtn-ai/Foundation-Sec-8B-Instruct/blob/aa13cb996e7fc700e7efd6b7367992f14cf349c0/NOTICE.md)
+- [오픈소스 AppSec 도구 64개 (AppSec Santa)](https://appsecsanta.com/open-source-tools)
+- [오픈소스 비밀 키 스캐너 비교 (AppSec Santa)](https://appsecsanta.com/secret-scanning-tools/best-open-source-secret-scanning-tools)
+- [비공개 저장소의 CodeQL (깃허브 문서)](https://docs.github.com/en/code-security/how-tos/scan-code-for-vulnerabilities/troubleshooting/troubleshooting-analysis-errors/cannot-enable-codeql-in-a-private-repository)
+- [cargo audit (RustSec)](https://rustsec.org/)
+
+**⚠️ 확인하지 못한 것**
+- **IDOR 예제**는 문서에 적힌 그대로 실행해 확인했어요. **한 바퀴 앱의 보안 헤더·경로 조작 테스트**는 앱 테스트로 확인했어요.
+- **도구 라이선스**는 비교 블로그 기준이에요(Semgrep CE LGPL-2.1, Trivy Apache-2.0, Gitleaks MIT, TruffleHog AGPL-3.0, ZAP Apache-2.0). **OSV-Scanner 라이선스**와 **Bandit·gosec·ESLint 플러그인** 세부는 확인하지 못했어요.
+- **CodeQL 비공개 저장소 가격**은 자료마다 달라 금액을 적지 않았어요.
+- **CodeShield 정밀도·재현율(96%/79%)**은 2차 자료라 본문에 넣지 않았어요.
+- **Qwen2.5-Coder의 3B 라이선스 예외**, **보안 리뷰 성능**은 확인하지 못했어요.
+- **Gitleaks·cargo audit·ZAP을 이 작업 환경에서 직접 실행**하는 것은 도구 설치가 허용되지 않아 하지 못했어요. 한 바퀴 앱의 보안 워크플로는 깃허브에서 첫 실행 때 확인돼요.
+- **클로드 보안 리뷰 액션의 버전 표기(@main)와 입력 이름**은 미러·문서 색인 기준이라 공식 저장소에서 확인이 필요해요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

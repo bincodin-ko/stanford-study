@@ -3,6 +3,8 @@
 [코딩 11장](coding/11-mastery.md)에서 "AI는 빠른 후배처럼 쓰기"를 원칙으로 봤어요.
 이 장은 **Claude Code 같은 AI 코딩 도구로 실제 서비스를 만드는 작업 순서와 요령**이에요.
 
+> AI가 만든 코드의 보안 점검(도구 + AI 리뷰 + 테스트)은 [82장](82-ai-code-security-review.md)에 있어요.
+
 > 이렇게 AI로 만들어 실제로 돈을 번 사례(와 실패 사례)는 [57장](57-vibe-coding-money-cases.md)에 있어요.
 
 > ⚠️ 도구 기능·단축키는 자주 바뀌어요. 2026년 11월 조사 기준이고, 최신 내용은 각 도구의 공식 문서(Claude Code는 code.claude.com/docs)를 확인하세요. ([참고 자료 모음](sources.md))
