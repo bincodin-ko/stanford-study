@@ -756,6 +756,26 @@
 
 ---
 
+## 87장 사업용 연락처 (도메인 이메일·전화번호)
+
+- [Gmail SMTP와 Cloudflare Email Routing 함께 쓰기 (bmann)](https://bmannconsulting.com/notes/using-gmail-smtp-with-cloudflare-email-routing/)
+- [Gmail과 Cloudflare Email Routing (DEV Community)](https://dev.to/pierre/gmail-with-cloudflare-email-routing-4413)
+- [Cloudflare Email Routing + Gmail 노트 (juri.dev)](https://juri.dev/notes/email-routing-gmail-cloudflare/)
+- [Cloudflare + Brevo + Gmail로 도메인 메일 (agentpedia)](https://agentpedia.codes/blog/free-custom-domain-email-cloudflare-brevo-gmail)
+- [Cloudflare Email Service 문제 해결 문서 (Cloudflare)](https://developers.cloudflare.com/email-service/reference/troubleshooting/)
+- [LG유플러스 기업 전화 상품 (LG U+)](https://www.lguplus.com/biz/all/telecom/lines/biz-call/B000000130?p=2)
+- [070 인터넷전화 요금·인식 정리 (아정당)](https://www.ajd.co.kr/contents/basic-tip/detail/%EC%9D%B8%ED%84%B0%EB%84%B7_%EC%A0%84%ED%99%94_%EB%B2%88%ED%98%B8,_070%EC%9D%80_%EB%8B%A4_%EC%82%AC%EA%B8%B0%EC%A0%84%ED%99%94%EB%9D%BC%EA%B3%A0_%EC%95%84%EB%8B%99%EB%8B%88%EB%8B%A4!-40891)
+- [국가법령정보센터 — 전자상거래법 제10조(신원 및 거래조건에 대한 정보의 제공)](https://www.law.go.kr/법령/전자상거래등에서의소비자보호에관한법률)
+
+**⚠️ 확인하지 못한 것**
+- **검사기 예제**(SPF 기록 개수·조회 10개 한도·`+all`, DMARC `p`·`rua`, 헤더 결과 읽기)는 문서 코드 그대로 실행해 확인했어요. 실제 DNS를 조회하지 않고 붙여 넣은 글자만 보며, `include:` 안쪽의 조회는 세지 않아요(그래서 "최소").
+- **Gmail "다른 주소에서 보내기"의 DMARC 정렬 실패**는 여러 해설 글의 공통 설명이에요. Gmail 쪽 동작이 바뀌었을 수 있으니 4절 방법(원본 보기)으로 직접 확인하세요. Cloudflare의 **보내기 서비스(Email Service)의 요금·제공 범위**는 확인하지 못했어요.
+- **전화 요금**: 대표번호 월 11,000원(LG U+), KT 안심번호 월 1,100원, KT 듀얼번호 Lite 3,300원·Plus 8,800원, LG U+ 듀얼넘버 플러스 8,800원, SKT 넘버플러스II 3,850원 등은 검색으로 본 **공개 안내·기사 기준**이고 수시로 바뀌어요. **070 월 기본료는 자료끼리 숫자가 서로 달라** 장 본문에 금액을 적지 않았어요. 두 번째 번호로 걸 때 누르는 특수번호(*281·*77 등)는 2022년 기사 기준이에요. SKT "마이투넘버"(2026년 8월 출시 보도)의 요금·조건은 확인하지 못했어요.
+- **전자상거래법 표시 의무**의 세부 항목(시행령 제11조의4, 시행규칙 제7조)과 2025년 과태료 사례는 검색 요약 기준이에요. 통신판매업 신고 면제 대상 등은 업종마다 달라요. **통화 녹음 고지**는 법적 의무 여부를 단정하지 않고 "안전한 운영 습관"으로 적었어요.
+- **security.txt 형식**(Contact·Expires 필수)은 일반 지식(RFC 9116)이에요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

@@ -56,7 +56,7 @@ for rel in files:
     toc.append((kind, p, title_of(rel)))
 
 def toc_html():
-    groups = {"intro": "시작하기", "biz": "인터넷 사업 공부 (1~86장)", "coding": "코딩 공부 노트"}
+    groups = {"intro": "시작하기", "biz": "인터넷 사업 공부 (1~87장)", "coding": "코딩 공부 노트"}
     out, last = [], None
     for kind, p, t in toc:
         if p == "d-sources--":
@@ -77,7 +77,7 @@ doc = f"""<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>인�
   <div class="cover-kicker">1인 창업가 겸 개발자를 위한</div>
   <h1>인터넷 사업 공부 교재</h1>
   <p class="cover-sub">기획 · 만들기 · 출시 · 운영 · 마케팅 · 돈 벌기<br>+ 코딩 기초부터 고수까지</p>
-  <p class="cover-meta">사업 1~86장 · 코딩 노트 13장 · 용어 사전 · 퀴즈 · 참고 자료<br>2026년 11월 기준</p>
+  <p class="cover-meta">사업 1~87장 · 코딩 노트 13장 · 용어 사전 · 퀴즈 · 참고 자료<br>2026년 11월 기준</p>
   <p class="cover-note">법·세금·플랫폼 정책은 자주 바뀌어요. 실제로 적용하기 전에 각 장의 안내대로 공식 자료를 다시 확인하세요.</p>
 </section>
 <section class="toc-page"><h2>목차</h2><p class="toc-hint">제목을 누르면 해당 장으로 이동해요. 본문 속 "○장" 링크도 눌러서 이동할 수 있어요.</p>{toc_html()}</section>
