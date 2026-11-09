@@ -718,6 +718,26 @@
 
 ---
 
+## 85장 프록시·동적 딜레이·브라우저 자동화
+
+- [구글, 주거용 프록시망 IPIDEA 차단 (Security Affairs)](https://securityaffairs.com/187463/security/google-targets-ipidea-in-crackdown-on-global-residential-proxy-networks)
+- [IPIDEA 차단 (SecurityWeek)](https://www.securityweek.com/google-disrupts-ipidea-proxy-network/amp/)
+- [주거용 프록시의 문제 (Barracuda)](https://blog.barracuda.com/2026/04/24/home-cheat-home--the-problem-with-residential-proxies)
+- [클라우드플레어, AI 크롤러 기본 차단 (MIT Technology Review)](https://www.technologyreview.com/2025/07/01/1119498/cloudflare-will-now-by-default-block-ai-bots-from-crawling-its-clients-websites/amp/)
+- [클라우드플레어 pay per crawl (Computerworld)](https://www.computerworld.com/article/4015341/cloudflare-offers-to-make-ai-pay-to-crawl-websites.html)
+- [RFC 9309 Robots Exclusion Protocol (IETF)](https://datatracker.ietf.org/doc/html/rfc9309)
+- [robots.txt의 미래 (구글 검색 센터 블로그)](https://developers.google.com/search/blog/2025/03/robots-future?hl=en)
+- [윤리적 웹 크롤러 모범 사례 (AWS 문서)](https://docs.aws.amazon.com/prescriptive-guidance/latest/web-crawling-system-esg-data/best-practices.html)
+- [예의 바른 크롤러 (Slatecave)](https://slatecave.net/blog/being-a-polite-crawler-on-the-web/)
+
+**⚠️ 확인하지 못한 것**
+- **실행 예제 2개**(스스로 느려지는 수집기 + 연습 사이트, Playwright로 한 바퀴 앱 E2E)는 이 작업 환경에서 직접 실행해 확인했어요.
+- **IPIDEA 사용 조직 550개 이상**은 보안 업체 보도 기준이고, 모든 사용자가 불법이었다는 뜻은 아니에요. 2026년 7월 **NetNut** 조치도 보도로만 확인했어요.
+- **클라우드플레어 pay per crawl**은 2025년 시범(비공개 베타) 기준이고, 이후 변경은 확인하지 못했어요.
+- **프록시 종류 설명, 합성 모니터링, 봇 막기 방법(행동 신호·캡차·턴스타일)**, **Puppeteer·Selenium**, **차단 우회가 업무방해·부정경쟁으로 이어질 수 있다는 판단**은 69장 판례 해설과 일반 지식을 바탕으로 했어요. 구체적 사안은 변호사와 확인하세요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

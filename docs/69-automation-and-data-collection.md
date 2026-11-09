@@ -2,6 +2,8 @@
 
 > 1인 사업자의 시간 관리는 [54장](54-burnout-and-time.md), 예약 작업은 [66장](66-common-service-features.md), 정보 사이트의 저작권은 [17장](17-info-sites.md)에 있어요.
 
+> 프록시·동적 딜레이(예의 바른 수집기 실습)·브라우저 자동화를 바르게 쓰는 법과 하지 말아야 할 것은 [85장](85-proxy-delay-browser-automation.md)에 있어요.
+
 ---
 
 ## 1. 코드 없이 자동화하기 — 노코드 자동화 도구
