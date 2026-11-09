@@ -11,7 +11,7 @@
 > 모르는 단어는 [3장 용어 사전](docs/03-glossary.md)에서 바로 찾을 수 있어요.
 > 한눈에 보고 싶으면 [요약 슬라이드](slides/internet-business-101.pptx)를 먼저 넘겨 보세요.
 
-> 📄 **PDF로 보기**: [전체 교재 PDF](pdf/인터넷-사업-공부-교재.pdf) (사업 1~85장 + 코딩 노트 + 용어·퀴즈·참고 자료, 장 사이 링크 이동 가능) · [사업 요약 슬라이드 PDF](pdf/사업-요약-슬라이드.pdf) · [코딩 요약 슬라이드 PDF](pdf/코딩-요약-슬라이드.pdf). 문서를 고친 뒤 PDF를 다시 만드는 법은 [tools/make-pdf](tools/make-pdf/README.md)에 있어요.
+> 📄 **PDF로 보기**: [전체 교재 PDF](pdf/인터넷-사업-공부-교재.pdf) (사업 1~86장 + 코딩 노트 + 용어·퀴즈·참고 자료, 장 사이 링크 이동 가능) · [사업 요약 슬라이드 PDF](pdf/사업-요약-슬라이드.pdf) · [코딩 요약 슬라이드 PDF](pdf/코딩-요약-슬라이드.pdf). 문서를 고친 뒤 PDF를 다시 만드는 법은 [tools/make-pdf](tools/make-pdf/README.md)에 있어요.
 
 ## 공부 순서
 
@@ -102,6 +102,7 @@
 | | [83. 서비스 보안 전체 지도](docs/83-security-map-all-layers.md) | 10개 층(사람·계정·도메인·서버·클라우드·DB·공급망·결제·단말기·감시), OWASP Top 10 2025, 공격 종류 사전, DB 보안 체크리스트, 서비스 종류별 우선순위, 위협 지도 그리기 |
 | | [84. 실제 보안 사고 사례와 교훈](docs/84-security-incident-cases.md) | 국내 7건(SKT·쿠팡·예스24·롯데카드·KT·GS리테일 등)·해외 12건(스노우플레이크·캐피털원·MOVEit·Tea·npm·polyfill.io·우버·MGM 등)과 공통 교훈 7가지 |
 | | [85. 프록시·동적 딜레이·브라우저 자동화](docs/85-proxy-delay-browser-automation.md) | 포워드·리버스 프록시, 주거용 프록시의 위험(IPIDEA), 스스로 느려지는 수집기(실행 예제), Playwright E2E 테스트(실행 예제), 내 서비스의 봇 막기, 하지 말 것 |
+| | [86. 인터넷이 동작하는 원리](docs/86-internet-fundamentals.md) | IP·IPv6·NAT·CGNAT, DNS, TCP·UDP·포트, HTTPS와 TLS 가로채기, 프록시 터널·X-Forwarded-For(위조 실험), HTTP 버전, 쿠키, 캐시(ETag·304), CORS, SSR vs SPA (실행 예제) |
 
 ## 이 교재로 만드는 제품 (기획 중)
 

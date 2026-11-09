@@ -738,6 +738,24 @@
 
 ---
 
+## 86장 인터넷이 동작하는 원리
+
+- [IPv6 접속 50% 돌파 (The Register)](https://www.theregister.com/2026/04/17/ipv6_50_percent_google/)
+- [18년 만에 IPv6 절반 (Internet Society Pulse)](https://pulse.internetsociety.org/blog/18-years-later-ipv6-reaches-majority)
+- [구글 IPv6 통계 (구글)](https://www.google.com/ipv6/statistics.html)
+- [CGNAT란 (CleanBrowsing)](https://cleanbrowsing.org/learn/what-is-cgnat)
+- [CGNAT와 공유 IP (ipfyi)](https://ipfyi.com/guides/ip-basics/carrier-grade-nat-cgnat/)
+- [클라우드플레어 2025 결산 (Cloudflare Radar)](https://cfl.re/3NoXVzr)
+- [HTTP/3 사용 비율 (W3Techs)](https://w3techs.com/technologies/breakdown/ce-http3/ranking)
+- [QUIC 촉발 (APNIC 블로그)](https://blog.apnic.net/2025/07/15/triggering-quic/)
+
+**⚠️ 확인하지 못한 것**
+- **실행 예제**(IP 분류, HTTP 글자 주고받기, 리버스 프록시와 X-Forwarded-For 위조 실험, 쿠키, ETag·304)는 문서 코드 그대로 실행해 확인했어요. **TLS 가로채기·CONNECT 403** 장면은 이 작업 환경에서 curl로 실제 관찰한 결과예요.
+- **HTTP 버전별 비율**(HTTP/3 약 21%, HTTP/2 약 50%, HTTP/1.x 약 29%)은 클라우드플레어 2025 자료를 인용한 2차 분석 기준이에요. 측정 방식(요청·사이트·트래픽)에 따라 숫자가 달라요. **한국 IPv6 비율**은 확인하지 못했어요.
+- **서울-미국 왕복 시간**, **TCP·UDP·TLS·SNI·쿠키·CORS·SSR/SPA 설명**, **제3자 쿠키 제한 동향**, **IP가 개인정보가 될 수 있다는 설명**은 일반 지식이에요.
+
+---
+
 ## 코딩 공부 노트
 
 ### 2장 언어 지도

@@ -2,6 +2,8 @@
 
 > 크롤링의 법적 쟁점(야놀자·여기어때 판례)은 [69장](69-automation-and-data-collection.md), 어뷰징·봇 막기는 [41장](41-abuse-and-cheat-prevention.md), 테스트 자동화는 [50장](50-testing-in-practice.md), 재시도·백오프는 [81장](81-optimization-and-stabilization.md), 보안 전체 지도는 [83장](83-security-map-all-layers.md)에 있어요.
 
+> 이 장의 바탕이 되는 인터넷 지식(IP·NAT·HTTPS·프록시 터널·X-Forwarded-For·쿠키·캐시·브라우저 렌더링)은 [86장](86-internet-fundamentals.md)에 있어요.
+
 프록시, 동적 딜레이, 브라우저 시뮬레이션(자동화)은 **같은 기술이 정반대로 쓰여요.**
 
 | 기술 | ✅ 바르게 쓰는 예 | ❌ 문제가 되는 예 |
