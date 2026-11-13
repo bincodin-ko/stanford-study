@@ -12,6 +12,8 @@
 > 한눈에 보고 싶으면 [요약 슬라이드](slides/internet-business-101.pptx)를 먼저 넘겨 보세요.
 
 > 📄 **PDF로 보기**: [전체 교재 PDF](pdf/인터넷-사업-공부-교재.pdf) (사업 1~87장 + 코딩 노트 + 용어·퀴즈·참고 자료, 장 사이 링크 이동 가능) · [사업 요약 슬라이드 PDF](pdf/사업-요약-슬라이드.pdf) · [코딩 요약 슬라이드 PDF](pdf/코딩-요약-슬라이드.pdf). 문서를 고친 뒤 PDF를 다시 만드는 법은 [tools/make-pdf](tools/make-pdf/README.md)에 있어요.
+>
+> 🗂️ **한 파일 데이터판**: [export/인터넷-사업-공부-전체.md](export/인터넷-사업-공부-전체.md) — 모든 문서(사업·코딩·용어·퀴즈·출처·제품 기획 + 진행표 YAML)를 Markdown 한 파일로 합친 것. 다른 제품에 데이터로 넣을 때 쓰세요. 다시 만들기: `python3 tools/make-md/build.py . export/인터넷-사업-공부-전체.md [steps.yaml 경로]`
 
 ## 공부 순서
 
